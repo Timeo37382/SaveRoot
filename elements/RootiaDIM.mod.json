@@ -1,0 +1,70 @@
+{
+  "_fv": 89,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      "CUSTOM:ROOTIA"
+    ],
+    "biomesInDimensionCaves": [],
+    "worldGenType": "Nether like gen",
+    "mainFillerBlock": "Blocks.ROOTED_DIRT",
+    "fluidBlock": "Blocks.LAVA",
+    "seaLevel": 32,
+    "generateOreVeins": false,
+    "generateAquifers": true,
+    "horizontalNoiseSize": 1,
+    "verticalNoiseSize": 2,
+    "defaultEffects": "overworld",
+    "useCustomEffects": true,
+    "hasClouds": true,
+    "cloudHeight": 96,
+    "skyType": "END",
+    "airColor": {
+      "value": -3177673,
+      "falpha": 0.0
+    },
+    "sunHeightAffectsFog": false,
+    "canRespawnHere": true,
+    "hasFog": true,
+    "ambientLight": 0.0,
+    "doesWaterVaporize": true,
+    "hasFixedTime": true,
+    "fixedTimeValue": 0,
+    "coordinateScale": 8.0,
+    "infiniburnTag": "minecraft:infiniburn_overworld",
+    "enableCustomSkyboxTextures": false,
+    "skyboxTextureUp": "",
+    "skyboxTextureDown": "",
+    "skyboxTextureNorth": "",
+    "skyboxTextureSouth": "",
+    "skyboxTextureWest": "",
+    "skyboxTextureEast": "",
+    "enableCustomSunMoonTextures": false,
+    "sunTexture": "",
+    "moonTexture": "",
+    "bedWorks": false,
+    "hasSkyLight": false,
+    "imitateOverworldBehaviour": false,
+    "piglinSafe": true,
+    "hasRaids": false,
+    "minMonsterSpawnLightLimit": 0,
+    "maxMonsterSpawnLightLimit": 7,
+    "monsterSpawnBlockLightLimit": 0,
+    "portalFrame": "CUSTOM:BlocDeRootium",
+    "portalParticles": "PORTAL",
+    "portalLuminance": 15,
+    "portalSound": "block.portal.ambient",
+    "enableIgniter": true,
+    "igniterName": "Routarde",
+    "igniterRarity": "RARE",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      "TOOLS"
+    ],
+    "texture": "minecraft:barrier",
+    "portalTexture": "minecraft:bee_nest_top",
+    "enablePortal": true
+  }
+}
