@@ -1,0 +1,19 @@
+{
+  "item.saferoot.lingotderootium": "Lingot de Rootium",
+  "item.saferoot.rootium_brut": "Rootium Brut",
+  "block.saferoot.rootium": "Minerais de Rootium",
+  "item.saferoot.armure_en_rootium_chestplate": "Plastron en Rootium",
+  "item.saferoot.armure_en_rootium_leggings": "Jambières en Rootium",
+  "item.saferoot.armure_en_rootium_boots": "Bottes en Rootium",
+  "item.saferoot.armure_en_rootium_helmet": "Casque en Rootium",
+  "item.saferoot.pioche": "Pioche en Rootium",
+  "item.saferoot.hache": "Hache en Rootium",
+  "block.saferoot.bloc_de_rootium": "Bloc De Rootium",
+  "item.saferoot.armure_en_rootium_helmet.description_0": "",
+  "item.saferoot.armure_en_rootium_leggings.description_0": "",
+  "item.saferoot.armure_en_rootium_chestplate.description_0": "",
+  "item.saferoot.armure_en_rootium_boots.description_0": "",
+  "item.saferoot.houe": "Houe en Rootium",
+  "item.saferoot.epee": "épée en Rootium",
+  "item.saferoot.pelle": "pelle en Rootium"
+}

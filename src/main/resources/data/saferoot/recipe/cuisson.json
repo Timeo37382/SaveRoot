@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "experience": 1,
+  "cookingtime": 300,
+  "ingredient": {
+    "item": "saferoot:rootium_brut"
+  },
+  "result": {
+    "id": "saferoot:lingotderootium"
+  }
+}
