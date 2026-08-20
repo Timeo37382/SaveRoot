@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "saferoot:block/block_rootium",
-    "particle": "saferoot:block/block_rootium"
-  },
-  "render_type": "solid"
-}

@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "saferoot:block/mineraisderootium",
-    "particle": "saferoot:block/mineraisderootium"
-  },
-  "render_type": "solid"
-}
