@@ -21,8 +21,8 @@
       "registry_name": "rootium_brut",
       "metadata": {
         "files": [
-          "src/main/resources/assets/saferoot/models/item/rootium_brut.json",
-          "src/main/java/net/mcreator/saferoot/item/RootiumBrutItem.java"
+          "src/main/java/net/mcreator/saferoot/item/RootiumBrutItem.java",
+          "src/main/resources/assets/saferoot/models/item/rootium_brut.json"
         ]
       }
     },
@@ -34,14 +34,14 @@
       "registry_name": "rootium",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/saferoot/block/RootiumBlock.java",
-          "src/main/resources/data/saferoot/worldgen/configured_feature/rootium.json",
-          "src/main/resources/assets/saferoot/models/item/rootium.json",
-          "src/main/resources/assets/saferoot/models/block/rootium.json",
-          "src/main/resources/data/saferoot/worldgen/placed_feature/rootium.json",
-          "src/main/resources/assets/saferoot/blockstates/rootium.json",
           "src/main/resources/data/saferoot/neoforge/biome_modifier/rootium_biome_modifier.json",
-          "src/main/resources/data/saferoot/loot_table/blocks/rootium.json"
+          "src/main/resources/data/saferoot/loot_table/blocks/rootium.json",
+          "src/main/resources/assets/saferoot/models/block/rootium.json",
+          "src/main/java/net/mcreator/saferoot/block/RootiumBlock.java",
+          "src/main/resources/data/saferoot/worldgen/placed_feature/rootium.json",
+          "src/main/resources/assets/saferoot/models/item/rootium.json",
+          "src/main/resources/data/saferoot/worldgen/configured_feature/rootium.json",
+          "src/main/resources/assets/saferoot/blockstates/rootium.json"
         ]
       }
     },
@@ -68,9 +68,9 @@
         "files": [
           "src/main/resources/assets/saferoot/models/item/armure_en_rootium_chestplate.json",
           "src/main/java/net/mcreator/saferoot/item/ArmureEnRootiumItem.java",
-          "src/main/resources/assets/saferoot/models/item/armure_en_rootium_helmet.json",
+          "src/main/resources/assets/saferoot/models/item/armure_en_rootium_boots.json",
           "src/main/resources/assets/saferoot/models/item/armure_en_rootium_leggings.json",
-          "src/main/resources/assets/saferoot/models/item/armure_en_rootium_boots.json"
+          "src/main/resources/assets/saferoot/models/item/armure_en_rootium_helmet.json"
         ]
       }
     },
@@ -180,63 +180,11 @@
       "registry_name": "bloc_de_rootium",
       "metadata": {
         "files": [
+          "src/main/resources/assets/saferoot/models/item/bloc_de_rootium.json",
           "src/main/resources/assets/saferoot/blockstates/bloc_de_rootium.json",
           "src/main/resources/assets/saferoot/models/block/bloc_de_rootium.json",
           "src/main/resources/data/saferoot/loot_table/blocks/bloc_de_rootium.json",
-          "src/main/resources/assets/saferoot/models/item/bloc_de_rootium.json",
           "src/main/java/net/mcreator/saferoot/block/BlocDeRootiumBlock.java"
-        ]
-      }
-    },
-    {
-      "name": "Pouvoir",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "pouvoir",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ],
-        "files": [
-          "src/main/java/net/mcreator/saferoot/procedures/PouvoirProcedure.java"
-        ]
-      }
-    },
-    {
-      "name": "PiocheSpecialInformation",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "pioche_special_information",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ],
-        "files": [
-          "src/main/java/net/mcreator/saferoot/procedures/PiocheSpecialInformationProcedure.java"
         ]
       }
     },
@@ -248,8 +196,8 @@
       "registry_name": "houe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/saferoot/models/item/houe.json",
-          "src/main/java/net/mcreator/saferoot/item/HOUEItem.java"
+          "src/main/java/net/mcreator/saferoot/item/HOUEItem.java",
+          "src/main/resources/assets/saferoot/models/item/houe.json"
         ]
       }
     },
@@ -261,8 +209,8 @@
       "registry_name": "epee",
       "metadata": {
         "files": [
-          "src/main/resources/assets/saferoot/models/item/epee.json",
-          "src/main/java/net/mcreator/saferoot/item/EpeeItem.java"
+          "src/main/java/net/mcreator/saferoot/item/EpeeItem.java",
+          "src/main/resources/assets/saferoot/models/item/epee.json"
         ]
       }
     },
@@ -326,13 +274,104 @@
           "src/main/resources/data/saferoot/recipe/craftbloc.json"
         ]
       }
+    },
+    {
+      "name": "VeinMinerPioche",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "vein_miner_pioche",
+      "metadata": {
+        "dependencies": [],
+        "files": [
+          "src/main/java/net/mcreator/saferoot/procedures/VeinMinerPiocheProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "TreeFellerHache",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "tree_feller_hache",
+      "metadata": {
+        "dependencies": [],
+        "files": [
+          "src/main/java/net/mcreator/saferoot/procedures/TreeFellerHacheProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Pelle3X3",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "pelle_3_x_3",
+      "metadata": {
+        "dependencies": [],
+        "files": [
+          "src/main/java/net/mcreator/saferoot/procedures/Pelle3X3Procedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Peespecialee",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "peespecialee",
+      "metadata": {
+        "dependencies": [],
+        "files": [
+          "src/main/java/net/mcreator/saferoot/procedures/PeespecialeeProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Houespecial",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "houespecial",
+      "metadata": {
+        "dependencies": [],
+        "files": [
+          "src/main/java/net/mcreator/saferoot/procedures/HouespecialProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "EffetArmure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "effet_armure",
+      "metadata": {
+        "dependencies": [],
+        "files": [
+          "src/main/java/net/mcreator/saferoot/procedures/EffetArmureProcedure.java"
+        ]
+      }
     }
   ],
-  "variable_elements": [],
+  "variable_elements": [
+    {
+      "name": "vein_miner_toggle",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    }
+  ],
   "sound_elements": [],
   "tag_elements": {
+    "ITEMS:minecraft:piglin_loved": [
+      "~Lingotderootium@CUSTOM:Lingotderootium"
+    ],
     "BLOCKS:minecraft:mineable/pickaxe": [
       "~BlocDeRootium@CUSTOM:BlocDeRootium",
+      "~Rootium@CUSTOM:Rootium"
+    ],
+    "BLOCKS:minecraft:needs_iron_tool": [
       "~Rootium@CUSTOM:Rootium"
     ],
     "ITEMS:minecraft:head_armor": [
@@ -347,23 +386,17 @@
     "ITEMS:minecraft:foot_armor": [
       "~ArmureEnRootium@CUSTOM:ArmureEnRootium.boots"
     ],
-    "ITEMS:minecraft:piglin_loved": [
-      "~Lingotderootium@CUSTOM:Lingotderootium"
-    ],
-    "BLOCKS:minecraft:needs_iron_tool": [
-      "~Rootium@CUSTOM:Rootium"
-    ],
     "BLOCKS:minecraft:needs_diamond_tool": [
       "~BlocDeRootium@CUSTOM:BlocDeRootium"
+    ],
+    "ITEMS:minecraft:hoes": [
+      "~HOUE@CUSTOM:HOUE"
     ],
     "ITEMS:minecraft:swords": [
       "~Epee@CUSTOM:Epee"
     ],
     "ITEMS:minecraft:shovels": [
       "~Pelle@CUSTOM:Pelle"
-    ],
-    "ITEMS:minecraft:hoes": [
-      "~HOUE@CUSTOM:HOUE"
     ],
     "ITEMS:minecraft:pickaxes": [
       "~Pioche@CUSTOM:Pioche"
@@ -398,10 +431,11 @@
     "files": [
       "src/main/java/net/mcreator/saferoot/init/SaferootModBlocks.java",
       "src/main/java/net/mcreator/saferoot/init/SaferootModItems.java",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/java/net/mcreator/saferoot/network/SaferootModVariables.java",
       "src/main/java/net/mcreator/saferoot/init/SaferootModTabs.java",
-      "src/main/resources/pack.mcmeta",
       "src/main/java/net/mcreator/saferoot/SaferootMod.java",
-      "src/main/resources/META-INF/neoforge.mods.toml"
+      "src/main/resources/pack.mcmeta"
     ]
   },
   "foldersRoot": {
@@ -411,7 +445,7 @@
   "workspaceSettings": {
     "modid": "saferoot",
     "modName": "SafeRoot",
-    "version": "0.2.0",
+    "version": "0.3.0",
     "author": "MCreator",
     "websiteURL": "https://mcreator.net",
     "license": "Not specified",
