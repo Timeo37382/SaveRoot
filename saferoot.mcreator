@@ -352,6 +352,22 @@
           "src/main/java/net/mcreator/saferoot/procedures/EffetArmureProcedure.java"
         ]
       }
+    },
+    {
+      "name": "ROOT",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "root",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/saferoot/neoforge/biome_modifier/root_biome_modifier.json",
+          "src/main/java/net/mcreator/saferoot/client/renderer/ROOTRenderer.java",
+          "src/main/java/net/mcreator/saferoot/entity/model/ROOTModel.java",
+          "src/main/resources/assets/saferoot/models/item/root_spawn_egg.json",
+          "src/main/java/net/mcreator/saferoot/entity/ROOTEntity.java"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -386,6 +402,12 @@
     "ITEMS:minecraft:foot_armor": [
       "~ArmureEnRootium@CUSTOM:ArmureEnRootium.boots"
     ],
+    "ITEMS:minecraft:pickaxes": [
+      "~Pioche@CUSTOM:Pioche"
+    ],
+    "ITEMS:minecraft:axes": [
+      "~Hache@CUSTOM:Hache"
+    ],
     "BLOCKS:minecraft:needs_diamond_tool": [
       "~BlocDeRootium@CUSTOM:BlocDeRootium"
     ],
@@ -397,12 +419,6 @@
     ],
     "ITEMS:minecraft:shovels": [
       "~Pelle@CUSTOM:Pelle"
-    ],
-    "ITEMS:minecraft:pickaxes": [
-      "~Pioche@CUSTOM:Pioche"
-    ],
-    "ITEMS:minecraft:axes": [
-      "~Hache@CUSTOM:Hache"
     ]
   },
   "tab_element_order": {},
@@ -424,13 +440,19 @@
       "item.saferoot.armure_en_rootium_boots.description_0": "",
       "item.saferoot.houe": "Houe en Rootium",
       "item.saferoot.epee": "épée en Rootium",
-      "item.saferoot.pelle": "pelle en Rootium"
+      "item.saferoot.pelle": "pelle en Rootium",
+      "entity.saferoot.root": "ROOT",
+      "item.saferoot.root_spawn_egg": "ROOT Spawn Egg"
     }
   },
   "metadata": {
     "files": [
+      "src/main/java/net/mcreator/saferoot/client/AnimatedEntityRenderers.java",
+      "src/main/java/net/mcreator/saferoot/init/EntityAnimationFactory.java",
       "src/main/java/net/mcreator/saferoot/init/SaferootModBlocks.java",
       "src/main/java/net/mcreator/saferoot/init/SaferootModItems.java",
+      "src/main/java/net/mcreator/saferoot/init/SaferootModEntityRenderers.java",
+      "src/main/java/net/mcreator/saferoot/init/SaferootModEntities.java",
       "src/main/resources/META-INF/neoforge.mods.toml",
       "src/main/java/net/mcreator/saferoot/network/SaferootModVariables.java",
       "src/main/java/net/mcreator/saferoot/init/SaferootModTabs.java",
@@ -453,7 +475,9 @@
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
-    "mcreatorDependencies": [],
+    "mcreatorDependencies": [
+      "geckolib"
+    ],
     "currentGenerator": "neoforge-1.21.1",
     "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.saferoot"

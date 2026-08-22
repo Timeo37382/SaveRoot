@@ -21,6 +21,7 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.mcreator.saferoot.network.SaferootModVariables;
 import net.mcreator.saferoot.init.SaferootModTabs;
 import net.mcreator.saferoot.init.SaferootModItems;
+import net.mcreator.saferoot.init.SaferootModEntities;
 import net.mcreator.saferoot.init.SaferootModBlocks;
 
 import java.util.concurrent.ConcurrentLinkedQueue;
@@ -45,6 +46,7 @@ public class SaferootMod {
 		modEventBus.addListener(this::registerNetworking);
 		SaferootModBlocks.REGISTRY.register(modEventBus);
 		SaferootModItems.REGISTRY.register(modEventBus);
+		SaferootModEntities.REGISTRY.register(modEventBus);
 		SaferootModTabs.REGISTRY.register(modEventBus);
 		SaferootModVariables.ATTACHMENT_TYPES.register(modEventBus);
 		// Start of user code block mod init

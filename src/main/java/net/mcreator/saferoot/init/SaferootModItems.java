@@ -1,11 +1,9 @@
-/*
- *    MCreator note: This file will be REGENERATED on each build.
- */
 package net.mcreator.saferoot.init;
 
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredHolder;
+import net.neoforged.neoforge.common.DeferredSpawnEggItem;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Rarity;
@@ -30,6 +28,7 @@ public class SaferootModItems {
 	public static final DeferredItem<Item> HOUE;
 	public static final DeferredItem<Item> EPEE;
 	public static final DeferredItem<Item> PELLE;
+	public static final DeferredItem<Item> ROOT_SPAWN_EGG;
 	static {
 		LINGOTDEROOTIUM = REGISTRY.register("lingotderootium", LingotderootiumItem::new);
 		ROOTIUM_BRUT = REGISTRY.register("rootium_brut", RootiumBrutItem::new);
@@ -44,6 +43,7 @@ public class SaferootModItems {
 		HOUE = REGISTRY.register("houe", HOUEItem::new);
 		EPEE = REGISTRY.register("epee", EpeeItem::new);
 		PELLE = REGISTRY.register("pelle", PelleItem::new);
+		ROOT_SPAWN_EGG = REGISTRY.register("root_spawn_egg", () -> new DeferredSpawnEggItem(SaferootModEntities.ROOT, -39424, -26368, new Item.Properties()));
 	}
 
 	// Start of user code block custom items

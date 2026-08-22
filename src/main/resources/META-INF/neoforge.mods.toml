@@ -13,6 +13,8 @@ authors="MCreator"
 # Start of user code block mod configuration
 # End of user code block mod configuration
 
+[[mixins]]
+    config = "saferoot.mixins.json"
 
 # Start of user code block custom mixins
 # End of user code block custom mixins
@@ -32,6 +34,12 @@ authors="MCreator"
     side="BOTH"
 
 
+[[dependencies.saferoot]]
+    modId="geckolib"
+    type="optional"
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
 
 
 # Start of user code block dependencies configuration

@@ -15,5 +15,7 @@
   "item.saferoot.armure_en_rootium_boots.description_0": "",
   "item.saferoot.houe": "Houe en Rootium",
   "item.saferoot.epee": "épée en Rootium",
-  "item.saferoot.pelle": "pelle en Rootium"
+  "item.saferoot.pelle": "pelle en Rootium",
+  "entity.saferoot.root": "ROOT",
+  "item.saferoot.root_spawn_egg": "ROOT Spawn Egg"
 }
