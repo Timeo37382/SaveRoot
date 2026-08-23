@@ -1,0 +1,11 @@
+{
+  "parent": "block/grass_block",
+  "textures": {
+    "bottom": "minecraft:block/coarse_dirt",
+    "top": "saferoot:block/herbeenrootium_dessus",
+    "side": "saferoot:block/herbeenrootium_cote",
+    "overlay": "saferoot:block/herbeenrootium_cote",
+    "particle": "minecraft:block/coarse_dirt"
+  },
+  "render_type": "solid"
+}

@@ -29,6 +29,12 @@ public class SaferootModItems {
 	public static final DeferredItem<Item> EPEE;
 	public static final DeferredItem<Item> PELLE;
 	public static final DeferredItem<Item> ROOT_SPAWN_EGG;
+	public static final DeferredItem<Item> HERBEENROOTIUM;
+	public static final DeferredItem<Item> BUCHEDEROOTIUM;
+	public static final DeferredItem<Item> FEUILLAGEROOTIUM;
+	public static final DeferredItem<Item> ROOTIA;
+	public static final DeferredItem<Item> FLEUR_EN_ROOTIUM;
+	public static final DeferredItem<Item> HEBRE;
 	static {
 		LINGOTDEROOTIUM = REGISTRY.register("lingotderootium", LingotderootiumItem::new);
 		ROOTIUM_BRUT = REGISTRY.register("rootium_brut", RootiumBrutItem::new);
@@ -44,6 +50,12 @@ public class SaferootModItems {
 		EPEE = REGISTRY.register("epee", EpeeItem::new);
 		PELLE = REGISTRY.register("pelle", PelleItem::new);
 		ROOT_SPAWN_EGG = REGISTRY.register("root_spawn_egg", () -> new DeferredSpawnEggItem(SaferootModEntities.ROOT, -39424, -26368, new Item.Properties()));
+		HERBEENROOTIUM = block(SaferootModBlocks.HERBEENROOTIUM, new Item.Properties().rarity(Rarity.RARE));
+		BUCHEDEROOTIUM = block(SaferootModBlocks.BUCHEDEROOTIUM, new Item.Properties().rarity(Rarity.RARE));
+		FEUILLAGEROOTIUM = block(SaferootModBlocks.FEUILLAGEROOTIUM, new Item.Properties().rarity(Rarity.RARE));
+		ROOTIA = REGISTRY.register("rootia", RootiaItem::new);
+		FLEUR_EN_ROOTIUM = block(SaferootModBlocks.FLEUR_EN_ROOTIUM);
+		HEBRE = block(SaferootModBlocks.HEBRE, new Item.Properties().rarity(Rarity.RARE));
 	}
 
 	// Start of user code block custom items

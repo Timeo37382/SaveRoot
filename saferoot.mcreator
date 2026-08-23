@@ -368,6 +368,111 @@
           "src/main/java/net/mcreator/saferoot/entity/ROOTEntity.java"
         ]
       }
+    },
+    {
+      "name": "Herbeenrootium",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "herbeenrootium",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/saferoot/loot_table/blocks/herbeenrootium.json",
+          "src/main/resources/assets/saferoot/models/block/herbeenrootium.json",
+          "src/main/java/net/mcreator/saferoot/block/HerbeenrootiumBlock.java",
+          "src/main/resources/assets/saferoot/models/item/herbeenrootium.json",
+          "src/main/resources/assets/saferoot/blockstates/herbeenrootium.json"
+        ]
+      }
+    },
+    {
+      "name": "Buchederootium",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "buchederootium",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/saferoot/models/block/buchederootium.json",
+          "src/main/resources/assets/saferoot/blockstates/buchederootium.json",
+          "src/main/resources/data/saferoot/loot_table/blocks/buchederootium.json",
+          "src/main/resources/assets/saferoot/models/item/buchederootium.json",
+          "src/main/java/net/mcreator/saferoot/block/BuchederootiumBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Feuillagerootium",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "feuillagerootium",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/saferoot/models/item/feuillagerootium.json",
+          "src/main/resources/assets/saferoot/models/block/feuillagerootium.json",
+          "src/main/resources/data/saferoot/loot_table/blocks/feuillagerootium.json",
+          "src/main/java/net/mcreator/saferoot/block/FeuillagerootiumBlock.java",
+          "src/main/resources/assets/saferoot/blockstates/feuillagerootium.json"
+        ]
+      }
+    },
+    {
+      "name": "Rootia",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "rootia",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/saferoot/dimension_type/rootia.json",
+          "src/main/resources/data/saferoot/dimension/rootia.json",
+          "src/main/java/net/mcreator/saferoot/item/RootiaItem.java",
+          "src/main/java/net/mcreator/saferoot/world/teleporter/RootiaTeleporter.java",
+          "src/main/resources/assets/saferoot/models/block/rootia_portal_ns.json",
+          "src/main/java/net/mcreator/saferoot/world/dimension/RootiaDimension.java",
+          "src/main/resources/assets/saferoot/models/block/rootia_portal_ew.json",
+          "src/main/resources/assets/saferoot/blockstates/rootia_portal.json",
+          "src/main/java/net/mcreator/saferoot/world/teleporter/RootiaPortalShape.java",
+          "src/main/resources/assets/saferoot/models/item/rootia.json",
+          "src/main/java/net/mcreator/saferoot/block/RootiaPortalBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "FleurEnRootium",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fleur_en_rootium",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/saferoot/loot_table/blocks/fleur_en_rootium.json",
+          "src/main/resources/assets/saferoot/blockstates/fleur_en_rootium.json",
+          "src/main/java/net/mcreator/saferoot/block/FleurEnRootiumBlock.java",
+          "src/main/resources/assets/saferoot/models/item/fleur_en_rootium.json",
+          "src/main/resources/assets/saferoot/models/block/fleur_en_rootium.json"
+        ]
+      }
+    },
+    {
+      "name": "Hebre",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hebre",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/saferoot/neoforge/biome_modifier/hebre_biome_modifier.json",
+          "src/main/resources/data/saferoot/worldgen/configured_feature/hebre.json",
+          "src/main/resources/assets/saferoot/models/item/hebre.json",
+          "src/main/resources/assets/saferoot/models/block/hebre.json",
+          "src/main/resources/assets/saferoot/blockstates/hebre.json",
+          "src/main/java/net/mcreator/saferoot/block/HebreBlock.java",
+          "src/main/resources/data/saferoot/worldgen/placed_feature/hebre.json",
+          "src/main/resources/data/saferoot/loot_table/blocks/hebre.json"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -419,6 +524,9 @@
     ],
     "ITEMS:minecraft:shovels": [
       "~Pelle@CUSTOM:Pelle"
+    ],
+    "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~Rootia@Blocks.BAMBOO_MOSAIC"
     ]
   },
   "tab_element_order": {},
@@ -442,7 +550,13 @@
       "item.saferoot.epee": "épée en Rootium",
       "item.saferoot.pelle": "pelle en Rootium",
       "entity.saferoot.root": "ROOT",
-      "item.saferoot.root_spawn_egg": "ROOT Spawn Egg"
+      "item.saferoot.root_spawn_egg": "ROOT Spawn Egg",
+      "block.saferoot.herbeenrootium": "Herbe en rootium",
+      "block.saferoot.buchederootium": "Buche de Rootium",
+      "block.saferoot.feuillagerootium": "Feuillage en Rootium",
+      "item.saferoot.rootia": "Rootia Portal Igniter",
+      "block.saferoot.fleur_en_rootium": "Fleur En Rootium",
+      "block.saferoot.hebre": "Herbe en rootium"
     }
   },
   "metadata": {
@@ -467,7 +581,7 @@
   "workspaceSettings": {
     "modid": "saferoot",
     "modName": "SafeRoot",
-    "version": "0.3.0",
+    "version": "0.4.0",
     "author": "MCreator",
     "websiteURL": "https://mcreator.net",
     "license": "Not specified",

@@ -24,6 +24,10 @@ public class SaferootModTabs {
 			tabData.accept(SaferootModItems.LINGOTDEROOTIUM.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
 			tabData.accept(SaferootModBlocks.ROOTIUM.get().asItem());
+			tabData.accept(SaferootModBlocks.BUCHEDEROOTIUM.get().asItem());
+			tabData.accept(SaferootModBlocks.FEUILLAGEROOTIUM.get().asItem());
+			tabData.accept(SaferootModBlocks.FLEUR_EN_ROOTIUM.get().asItem());
+			tabData.accept(SaferootModBlocks.HEBRE.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
 			tabData.accept(SaferootModItems.ARMURE_EN_ROOTIUM_HELMET.get());
 			tabData.accept(SaferootModItems.ARMURE_EN_ROOTIUM_CHESTPLATE.get());
@@ -35,6 +39,7 @@ public class SaferootModTabs {
 			tabData.accept(SaferootModItems.HOUE.get());
 			tabData.accept(SaferootModItems.EPEE.get());
 			tabData.accept(SaferootModItems.PELLE.get());
+			tabData.accept(SaferootModItems.ROOTIA.get());
 		}
 	}
 }

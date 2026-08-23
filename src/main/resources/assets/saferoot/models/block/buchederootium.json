@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "saferoot:block/buchederootium_desus",
+    "up": "saferoot:block/buchederootium_desus",
+    "north": "saferoot:block/buchederootium",
+    "east": "saferoot:block/buchederootium",
+    "south": "saferoot:block/buchederootium",
+    "west": "saferoot:block/buchederootium",
+    "particle": "saferoot:block/buchederootium_desus"
+  },
+  "render_type": "solid"
+}

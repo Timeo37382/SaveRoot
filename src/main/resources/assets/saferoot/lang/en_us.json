@@ -17,5 +17,11 @@
   "item.saferoot.epee": "épée en Rootium",
   "item.saferoot.pelle": "pelle en Rootium",
   "entity.saferoot.root": "ROOT",
-  "item.saferoot.root_spawn_egg": "ROOT Spawn Egg"
+  "item.saferoot.root_spawn_egg": "ROOT Spawn Egg",
+  "block.saferoot.herbeenrootium": "Herbe en rootium",
+  "block.saferoot.buchederootium": "Buche de Rootium",
+  "block.saferoot.feuillagerootium": "Feuillage en Rootium",
+  "item.saferoot.rootia": "Rootia Portal Igniter",
+  "block.saferoot.fleur_en_rootium": "Fleur En Rootium",
+  "block.saferoot.hebre": "Herbe en rootium"
 }
