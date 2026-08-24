@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "saferoot:item/bois_en_rootium_door_item"
+  },
+  "render_type": "translucent"
+}

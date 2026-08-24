@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "hanging_sign",
+  "category": "misc",
+  "pattern": [
+    "a a",
+    "bbb",
+    "bbb"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:chain"
+    },
+    "b": {
+      "item": "saferoot:stripped_bois_en_rootium_log"
+    }
+  },
+  "result": {
+    "id": "saferoot:bois_en_rootium_hanging_sign",
+    "count": 6
+  }
+}

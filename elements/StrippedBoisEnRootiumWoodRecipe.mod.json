@@ -1,0 +1,31 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 3,
+    "group": "bark",
+    "unlockingItems": [
+      "CUSTOM:StrippedBoisEnRootiumLog"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "CUSTOM:StrippedBoisEnRootiumLog",
+      "CUSTOM:StrippedBoisEnRootiumLog",
+      "",
+      "CUSTOM:StrippedBoisEnRootiumLog",
+      "CUSTOM:StrippedBoisEnRootiumLog",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "recipeReturnStack": "CUSTOM:StrippedBoisEnRootiumWood",
+    "name": "stripped_bois_en_rootium_wood_recipe",
+    "namespace": "mod"
+  }
+}

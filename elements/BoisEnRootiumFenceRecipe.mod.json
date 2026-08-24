@@ -1,0 +1,31 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 3,
+    "group": "wooden_fence",
+    "unlockingItems": [
+      "CUSTOM:BoisEnRootiumPlanks"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "",
+      "",
+      "",
+      "CUSTOM:BoisEnRootiumPlanks",
+      "Items.STICK",
+      "CUSTOM:BoisEnRootiumPlanks",
+      "CUSTOM:BoisEnRootiumPlanks",
+      "Items.STICK",
+      "CUSTOM:BoisEnRootiumPlanks"
+    ],
+    "recipeReturnStack": "CUSTOM:BoisEnRootiumFence",
+    "name": "bois_en_rootium_fence_recipe",
+    "namespace": "mod"
+  }
+}

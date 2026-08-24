@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_slab",
+  "category": "building",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "saferoot:bois_en_rootium_planks"
+    }
+  },
+  "result": {
+    "id": "saferoot:bois_en_rootium_slab",
+    "count": 6
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "particle": "saferoot:block/planche_de_rootium",
+    "bottom": "saferoot:block/planche_de_rootium",
+    "top": "saferoot:block/planche_de_rootium",
+    "side": "saferoot:block/planche_de_rootium"
+  },
+  "render_type": "solid"
+}

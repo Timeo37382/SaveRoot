@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_fence_gate_wall_open",
+  "textures": {
+    "texture": "saferoot:block/planche_de_rootium",
+    "particle": "saferoot:block/planche_de_rootium"
+  },
+  "render_type": "solid"
+}

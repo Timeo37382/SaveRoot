@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "saferoot:bois_en_rootium_fence",
+    "saferoot:bois_en_rootium_button",
+    "saferoot:bois_en_rootium_wood",
+    "saferoot:stripped_bois_en_rootium_log",
+    "saferoot:bois_en_rootium_planks",
+    "saferoot:bois_en_rootium_hanging_sign",
+    "saferoot:bois_en_rootium_wall_hanging_sign",
+    "saferoot:bois_en_rootium_slab",
+    "saferoot:bois_en_rootium_fence_gate",
+    "saferoot:bois_en_rootium_sign",
+    "saferoot:bois_en_rootium_pressure_plate",
+    "saferoot:bois_en_rootium_stairs",
+    "saferoot:bois_en_rootium_trapdoor",
+    "saferoot:bois_en_rootium_door",
+    "saferoot:stripped_bois_en_rootium_wood",
+    "saferoot:bois_en_rootium_log",
+    "saferoot:bois_en_rootium_wall_sign"
+  ]
+}

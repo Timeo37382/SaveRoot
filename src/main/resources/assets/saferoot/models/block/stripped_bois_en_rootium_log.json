@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "saferoot:block/stripedrootium",
+    "up": "saferoot:block/stripedrootium",
+    "north": "saferoot:block/stripped_bois_en_rootium_log",
+    "east": "saferoot:block/stripped_bois_en_rootium_log",
+    "south": "saferoot:block/stripped_bois_en_rootium_log",
+    "west": "saferoot:block/stripped_bois_en_rootium_log",
+    "particle": "saferoot:block/stripped_bois_en_rootium_log"
+  },
+  "render_type": "solid"
+}

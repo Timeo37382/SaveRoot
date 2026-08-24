@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "saferoot:item/bois_en_rootium_hanging_sign"
+  },
+  "render_type": "translucent"
+}

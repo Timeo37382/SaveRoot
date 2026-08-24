@@ -24,7 +24,6 @@ public class SaferootModTabs {
 			tabData.accept(SaferootModItems.LINGOTDEROOTIUM.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
 			tabData.accept(SaferootModBlocks.ROOTIUM.get().asItem());
-			tabData.accept(SaferootModBlocks.BUCHEDEROOTIUM.get().asItem());
 			tabData.accept(SaferootModBlocks.FEUILLAGEROOTIUM.get().asItem());
 			tabData.accept(SaferootModBlocks.FLEUR_EN_ROOTIUM.get().asItem());
 			tabData.accept(SaferootModBlocks.HEBRE.get().asItem());
@@ -40,6 +39,23 @@ public class SaferootModTabs {
 			tabData.accept(SaferootModItems.EPEE.get());
 			tabData.accept(SaferootModItems.PELLE.get());
 			tabData.accept(SaferootModItems.ROOTIA.get());
+		} else if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+			tabData.accept(SaferootModBlocks.BOIS_EN_ROOTIUM_LOG.get().asItem());
+			tabData.accept(SaferootModBlocks.BOIS_EN_ROOTIUM_WOOD.get().asItem());
+			tabData.accept(SaferootModBlocks.STRIPPED_BOIS_EN_ROOTIUM_LOG.get().asItem());
+			tabData.accept(SaferootModBlocks.STRIPPED_BOIS_EN_ROOTIUM_WOOD.get().asItem());
+			tabData.accept(SaferootModBlocks.BOIS_EN_ROOTIUM_PLANKS.get().asItem());
+			tabData.accept(SaferootModBlocks.BOIS_EN_ROOTIUM_STAIRS.get().asItem());
+			tabData.accept(SaferootModBlocks.BOIS_EN_ROOTIUM_SLAB.get().asItem());
+			tabData.accept(SaferootModBlocks.BOIS_EN_ROOTIUM_FENCE.get().asItem());
+			tabData.accept(SaferootModBlocks.BOIS_EN_ROOTIUM_FENCE_GATE.get().asItem());
+			tabData.accept(SaferootModBlocks.BOIS_EN_ROOTIUM_DOOR.get().asItem());
+			tabData.accept(SaferootModBlocks.BOIS_EN_ROOTIUM_TRAPDOOR.get().asItem());
+			tabData.accept(SaferootModBlocks.BOIS_EN_ROOTIUM_PRESSURE_PLATE.get().asItem());
+			tabData.accept(SaferootModBlocks.BOIS_EN_ROOTIUM_BUTTON.get().asItem());
+		} else if (tabData.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
+			tabData.accept(SaferootModBlocks.BOIS_EN_ROOTIUM_SIGN.get().asItem());
+			tabData.accept(SaferootModBlocks.BOIS_EN_ROOTIUM_HANGING_SIGN.get().asItem());
 		}
 	}
 }

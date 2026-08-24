@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "chest_boat",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "saferoot:deleted_mod_element"
+    },
+    {
+      "item": "minecraft:chest"
+    }
+  ],
+  "result": {
+    "id": "saferoot:deleted_mod_element",
+    "count": 1
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "saferoot:block/stripped_bois_en_rootium_wood",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "saferoot:block/stripped_bois_en_rootium_wood"
+    },
+    "axis=z": {
+      "model": "saferoot:block/stripped_bois_en_rootium_wood",
+      "x": 90
+    }
+  }
+}

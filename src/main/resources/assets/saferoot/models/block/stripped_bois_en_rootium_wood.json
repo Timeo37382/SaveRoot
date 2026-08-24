@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "saferoot:block/stripped_bois_en_rootium_log",
+    "particle": "saferoot:block/stripped_bois_en_rootium_log"
+  },
+  "render_type": "solid"
+}
