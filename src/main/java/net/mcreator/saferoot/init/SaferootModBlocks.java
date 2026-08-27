@@ -45,6 +45,7 @@ public class SaferootModBlocks {
 	public static final DeferredBlock<Block> BOIS_EN_ROOTIUM_WALL_SIGN;
 	public static final DeferredBlock<Block> BOIS_EN_ROOTIUM_HANGING_SIGN;
 	public static final DeferredBlock<Block> BOIS_EN_ROOTIUM_WALL_HANGING_SIGN;
+	public static final DeferredBlock<Block> COEURDEROOT;
 	static {
 		ROOTIUM = REGISTRY.register("rootium", RootiumBlock::new);
 		BLOC_DE_ROOTIUM = REGISTRY.register("bloc_de_rootium", BlocDeRootiumBlock::new);
@@ -70,6 +71,7 @@ public class SaferootModBlocks {
 		BOIS_EN_ROOTIUM_WALL_SIGN = REGISTRY.register("bois_en_rootium_wall_sign", BoisEnRootiumWallSignBlock::new);
 		BOIS_EN_ROOTIUM_HANGING_SIGN = REGISTRY.register("bois_en_rootium_hanging_sign", BoisEnRootiumHangingSignBlock::new);
 		BOIS_EN_ROOTIUM_WALL_HANGING_SIGN = REGISTRY.register("bois_en_rootium_wall_hanging_sign", BoisEnRootiumWallHangingSignBlock::new);
+		COEURDEROOT = REGISTRY.register("coeurderoot", CoeurderootBlock::new);
 	}
 
 	// Start of user code block custom blocks

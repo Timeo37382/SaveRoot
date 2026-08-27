@@ -917,6 +917,62 @@
           "src/main/resources/data/saferoot/advancement/recipes/bois_en_rootium_chest_boat_recipe.json"
         ]
       }
+    },
+    {
+      "name": "Coeurderoot",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coeurderoot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/saferoot/models/block/coeurderoot.json",
+          "src/main/resources/assets/saferoot/blockstates/coeurderoot.json",
+          "src/main/java/net/mcreator/saferoot/block/CoeurderootBlock.java",
+          "src/main/resources/data/saferoot/loot_table/blocks/coeurderoot.json",
+          "src/main/resources/assets/saferoot/models/item/coeurderoot.json"
+        ]
+      }
+    },
+    {
+      "name": "WhitherRoot",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "whither_root",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/saferoot/entity/WhitherRootEntity.java",
+          "src/main/resources/data/saferoot/neoforge/biome_modifier/whither_root_biome_modifier.json",
+          "src/main/resources/assets/saferoot/models/item/whither_root_spawn_egg.json",
+          "src/main/java/net/mcreator/saferoot/client/renderer/WhitherRootRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "BoussoleRoot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "boussole_root",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/saferoot/item/BoussoleRootItem.java",
+          "src/main/resources/assets/saferoot/models/item/boussole_root.json"
+        ]
+      }
+    },
+    {
+      "name": "CRAFTBOUSSOLE",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craftboussole",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/saferoot/recipe/craftboussole.json"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -960,11 +1016,9 @@
       "~Lingotderootium@CUSTOM:Lingotderootium"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
-      "~BlocDeRootium@CUSTOM:BlocDeRootium",
-      "~Rootium@CUSTOM:Rootium"
-    ],
-    "BLOCKS:minecraft:needs_iron_tool": [
-      "~Rootium@CUSTOM:Rootium"
+      "~Rootium@CUSTOM:Rootium",
+      "~Coeurderoot@CUSTOM:Coeurderoot",
+      "~BlocDeRootium@CUSTOM:BlocDeRootium"
     ],
     "ITEMS:minecraft:head_armor": [
       "~ArmureEnRootium@CUSTOM:ArmureEnRootium.helmet"
@@ -985,6 +1039,7 @@
       "~Hache@CUSTOM:Hache"
     ],
     "BLOCKS:minecraft:needs_diamond_tool": [
+      "~Coeurderoot@CUSTOM:Coeurderoot",
       "~BlocDeRootium@CUSTOM:BlocDeRootium"
     ],
     "ITEMS:minecraft:hoes": [
@@ -1047,6 +1102,9 @@
     ],
     "BLOCKS:minecraft:wall_hanging_signs": [
       "~BoisEnRootiumHangingSign@CUSTOM:BoisEnRootiumHangingSign.wall"
+    ],
+    "BLOCKS:minecraft:needs_iron_tool": [
+      "~Rootium@CUSTOM:Rootium"
     ]
   },
   "tab_element_order": {},
@@ -1090,7 +1148,11 @@
       "block.saferoot.bois_en_rootium_pressure_plate": "Bois En Rootium Pressure Plate",
       "block.saferoot.bois_en_rootium_button": "Bois En Rootium Button",
       "block.saferoot.bois_en_rootium_sign": "Bois En Rootium Sign",
-      "block.saferoot.bois_en_rootium_hanging_sign": "Bois En Rootium Hanging Sign"
+      "block.saferoot.bois_en_rootium_hanging_sign": "Bois En Rootium Hanging Sign",
+      "block.saferoot.coeurderoot": "Coeur de Root",
+      "item.saferoot.whither_root_spawn_egg": "Wither Root Spawn Egg",
+      "entity.saferoot.whither_root": "Wither Root",
+      "item.saferoot.boussole_root": "Boussole Root"
     }
   },
   "metadata": {

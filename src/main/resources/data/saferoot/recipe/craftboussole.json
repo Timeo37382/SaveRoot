@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "saferoot:lingotderootium"
+    },
+    {
+      "item": "minecraft:compass"
+    }
+  ],
+  "result": {
+    "id": "saferoot:boussole_root",
+    "count": 1
+  }
+}

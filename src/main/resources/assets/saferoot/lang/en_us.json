@@ -37,5 +37,9 @@
   "block.saferoot.bois_en_rootium_pressure_plate": "Bois En Rootium Pressure Plate",
   "block.saferoot.bois_en_rootium_button": "Bois En Rootium Button",
   "block.saferoot.bois_en_rootium_sign": "Bois En Rootium Sign",
-  "block.saferoot.bois_en_rootium_hanging_sign": "Bois En Rootium Hanging Sign"
+  "block.saferoot.bois_en_rootium_hanging_sign": "Bois En Rootium Hanging Sign",
+  "block.saferoot.coeurderoot": "Coeur de Root",
+  "item.saferoot.whither_root_spawn_egg": "Wither Root Spawn Egg",
+  "entity.saferoot.whither_root": "Wither Root",
+  "item.saferoot.boussole_root": "Boussole Root"
 }

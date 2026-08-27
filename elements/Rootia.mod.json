@@ -48,11 +48,11 @@
     "minMonsterSpawnLightLimit": 0,
     "maxMonsterSpawnLightLimit": 7,
     "monsterSpawnBlockLightLimit": 0,
-    "portalFrame": "Blocks.CRIMSON_PLANKS",
+    "portalFrame": "CUSTOM:BlocDeRootium",
     "portalParticles": "PORTAL",
-    "portalLuminance": 0,
+    "portalLuminance": 11,
     "portalSound": "block.portal.ambient",
-    "enableIgniter": true,
+    "enableIgniter": false,
     "igniterName": "Rootia Portal Igniter",
     "igniterRarity": "COMMON",
     "specialInformation": {
@@ -62,7 +62,7 @@
       "TOOLS"
     ],
     "texture": "minecraft:brewing_stand",
-    "portalTexture": "minecraft:azalea_plant",
+    "portalTexture": "minecraft:nether_portal",
     "enablePortal": true
   }
 }

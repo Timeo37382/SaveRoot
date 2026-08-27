@@ -32,6 +32,7 @@ public class SaferootModTabs {
 			tabData.accept(SaferootModItems.ARMURE_EN_ROOTIUM_CHESTPLATE.get());
 			tabData.accept(SaferootModItems.ARMURE_EN_ROOTIUM_LEGGINGS.get());
 			tabData.accept(SaferootModItems.ARMURE_EN_ROOTIUM_BOOTS.get());
+			tabData.accept(SaferootModItems.BOUSSOLE_ROOT.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(SaferootModItems.PIOCHE.get());
 			tabData.accept(SaferootModItems.HACHE.get());
@@ -53,9 +54,12 @@ public class SaferootModTabs {
 			tabData.accept(SaferootModBlocks.BOIS_EN_ROOTIUM_TRAPDOOR.get().asItem());
 			tabData.accept(SaferootModBlocks.BOIS_EN_ROOTIUM_PRESSURE_PLATE.get().asItem());
 			tabData.accept(SaferootModBlocks.BOIS_EN_ROOTIUM_BUTTON.get().asItem());
+			tabData.accept(SaferootModBlocks.COEURDEROOT.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
 			tabData.accept(SaferootModBlocks.BOIS_EN_ROOTIUM_SIGN.get().asItem());
 			tabData.accept(SaferootModBlocks.BOIS_EN_ROOTIUM_HANGING_SIGN.get().asItem());
+		} else if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
+			tabData.accept(SaferootModItems.WHITHER_ROOT_SPAWN_EGG.get());
 		}
 	}
 }

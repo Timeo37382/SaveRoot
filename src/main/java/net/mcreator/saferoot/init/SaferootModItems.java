@@ -47,6 +47,9 @@ public class SaferootModItems {
 	public static final DeferredItem<Item> BOIS_EN_ROOTIUM_BUTTON;
 	public static final DeferredItem<Item> BOIS_EN_ROOTIUM_SIGN;
 	public static final DeferredItem<Item> BOIS_EN_ROOTIUM_HANGING_SIGN;
+	public static final DeferredItem<Item> COEURDEROOT;
+	public static final DeferredItem<Item> WHITHER_ROOT_SPAWN_EGG;
+	public static final DeferredItem<Item> BOUSSOLE_ROOT;
 	static {
 		LINGOTDEROOTIUM = REGISTRY.register("lingotderootium", LingotderootiumItem::new);
 		ROOTIUM_BRUT = REGISTRY.register("rootium_brut", RootiumBrutItem::new);
@@ -82,6 +85,9 @@ public class SaferootModItems {
 		BOIS_EN_ROOTIUM_BUTTON = block(SaferootModBlocks.BOIS_EN_ROOTIUM_BUTTON);
 		BOIS_EN_ROOTIUM_SIGN = signBlock(SaferootModBlocks.BOIS_EN_ROOTIUM_SIGN, SaferootModBlocks.BOIS_EN_ROOTIUM_WALL_SIGN, new Item.Properties().stacksTo(16));
 		BOIS_EN_ROOTIUM_HANGING_SIGN = hangingSignBlock(SaferootModBlocks.BOIS_EN_ROOTIUM_HANGING_SIGN, SaferootModBlocks.BOIS_EN_ROOTIUM_WALL_HANGING_SIGN, new Item.Properties().stacksTo(16));
+		COEURDEROOT = block(SaferootModBlocks.COEURDEROOT, new Item.Properties().rarity(Rarity.EPIC).fireResistant());
+		WHITHER_ROOT_SPAWN_EGG = REGISTRY.register("whither_root_spawn_egg", () -> new DeferredSpawnEggItem(SaferootModEntities.WHITHER_ROOT, -1, -1, new Item.Properties()));
+		BOUSSOLE_ROOT = REGISTRY.register("boussole_root", BoussoleRootItem::new);
 	}
 
 	// Start of user code block custom items

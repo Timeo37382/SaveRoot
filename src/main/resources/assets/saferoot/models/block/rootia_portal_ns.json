@@ -1,7 +1,7 @@
 {
   "textures": {
-    "particle": "minecraft:block/azalea_plant",
-    "portal": "minecraft:block/azalea_plant"
+    "particle": "saferoot:block/rootia_portal",
+    "portal": "saferoot:block/rootia_portal"
   },
   "elements": [
     {

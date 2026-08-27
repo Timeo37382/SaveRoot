@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "saferoot:coeurderoot",
     "saferoot:bloc_de_rootium",
     "saferoot:rootium"
   ]

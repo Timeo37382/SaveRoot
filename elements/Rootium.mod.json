@@ -129,8 +129,8 @@
       "Blocks.DEEPSLATE"
     ],
     "generationShape": "UNIFORM",
-    "frequencyPerChunks": 6,
-    "frequencyOnChunk": 5,
+    "frequencyPerChunks": 10,
+    "frequencyOnChunk": 9,
     "minGenerateHeight": -30,
     "maxGenerateHeight": 0
   }
