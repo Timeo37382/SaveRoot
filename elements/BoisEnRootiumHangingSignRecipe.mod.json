@@ -1,0 +1,31 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 6,
+    "group": "hanging_sign",
+    "unlockingItems": [
+      "CUSTOM:StrippedBoisEnRootiumLog"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "Blocks.CHAIN",
+      "",
+      "Blocks.CHAIN",
+      "CUSTOM:StrippedBoisEnRootiumLog",
+      "CUSTOM:StrippedBoisEnRootiumLog",
+      "CUSTOM:StrippedBoisEnRootiumLog",
+      "CUSTOM:StrippedBoisEnRootiumLog",
+      "CUSTOM:StrippedBoisEnRootiumLog",
+      "CUSTOM:StrippedBoisEnRootiumLog"
+    ],
+    "recipeReturnStack": "CUSTOM:BoisEnRootiumHangingSign",
+    "name": "bois_en_rootium_hanging_sign_recipe",
+    "namespace": "mod"
+  }
+}

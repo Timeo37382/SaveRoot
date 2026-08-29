@@ -1,0 +1,31 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 4,
+    "group": "wooden_stairs",
+    "unlockingItems": [
+      "CUSTOM:BoisEnRootiumPlanks"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "CUSTOM:BoisEnRootiumPlanks",
+      "",
+      "",
+      "CUSTOM:BoisEnRootiumPlanks",
+      "CUSTOM:BoisEnRootiumPlanks",
+      "",
+      "CUSTOM:BoisEnRootiumPlanks",
+      "CUSTOM:BoisEnRootiumPlanks",
+      "CUSTOM:BoisEnRootiumPlanks"
+    ],
+    "recipeReturnStack": "CUSTOM:BoisEnRootiumStairs",
+    "name": "bois_en_rootium_stairs_recipe",
+    "namespace": "mod"
+  }
+}

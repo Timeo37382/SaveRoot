@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "#saferoot:bois_en_rootium_logs",
+      "required": false
+    }
+  ]
+}

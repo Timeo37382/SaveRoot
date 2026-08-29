@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "saferoot:blocks/bois_en_rootium_log",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "saferoot:bois_en_rootium_log"
+        }
+      ]
+    }
+  ]
+}

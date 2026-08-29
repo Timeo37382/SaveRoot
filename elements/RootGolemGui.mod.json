@@ -1,0 +1,108 @@
+{
+  "_fv": 89,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "root_golem_gui.png",
+          "use1Xscale": false,
+          "x": 126,
+          "y": 37,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_root",
+          "text": {
+            "fixedValue": "Root"
+          },
+          "color": {
+            "value": -3641846,
+            "falpha": 0.0
+          },
+          "hasShadow": true,
+          "x": 203,
+          "y": 43,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_inventaire",
+          "text": {
+            "fixedValue": "Inventaire"
+          },
+          "color": {
+            "value": -12632257,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 134,
+          "y": 110,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_miner",
+          "text": "Miner",
+          "isUndecorated": false,
+          "onClick": "RootModeMiner",
+          "width": 52,
+          "height": 20,
+          "x": 132,
+          "y": 85,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_attaquer",
+          "text": "Attaquer",
+          "isUndecorated": false,
+          "onClick": "RootModeAttaquer",
+          "width": 52,
+          "height": 20,
+          "x": 188,
+          "y": 85,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_bucher",
+          "text": "Bûcher",
+          "isUndecorated": false,
+          "onClick": "RootModeBucher",
+          "width": 52,
+          "height": 20,
+          "x": 244,
+          "y": 85,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

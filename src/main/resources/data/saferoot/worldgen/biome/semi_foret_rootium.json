@@ -1,0 +1,49 @@
+{
+  "has_precipitation": false,
+  "temperature": 0.7,
+  "downfall": 0.5,
+  "effects": {
+    "sky_color": 8103167,
+    "fog_color": 12638463,
+    "water_color": 4159204,
+    "water_fog_color": 329011,
+    "grass_color": 9470285,
+    "foliage_color": 10387789
+  },
+  "spawners": {
+    "monster": [],
+    "creature": [],
+    "ambient": [],
+    "water_creature": [],
+    "underground_water_creature": [],
+    "water_ambient": [],
+    "misc": [],
+    "axolotls": []
+  },
+  "spawn_costs": {},
+  "carvers": {},
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "saferoot:blob_deepslate",
+      "saferoot:blob_terracotta",
+      "saferoot:veine_terracotta_orange",
+      "saferoot:veine_terracotta_rouge",
+      "saferoot:veine_terracotta_blanc",
+      "saferoot:rootium_rootia"
+    ],
+    [],
+    [],
+    [
+      "saferoot:patch_hebre",
+      "saferoot:patch_fleur"
+    ],
+    []
+  ],
+  "creature_spawn_probability": 0.9999999
+}

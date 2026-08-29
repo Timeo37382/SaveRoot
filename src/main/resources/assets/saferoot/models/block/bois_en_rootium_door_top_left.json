@@ -1,0 +1,9 @@
+{
+  "parent": "block/door_top_left",
+  "textures": {
+    "particle": "saferoot:block/bois_en_rootium_door_bottom",
+    "bottom": "saferoot:block/bois_en_rootium_door_bottom",
+    "top": "saferoot:block/bois_en_rootium_door_top"
+  },
+  "render_type": "cutout"
+}

@@ -1,0 +1,163 @@
+{
+  "_fv": 89,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 338,
+    "height": 119,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "pixelrootprojet.png",
+          "use1Xscale": false,
+          "x": 38,
+          "y": 38,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_bien_avant_notre_ere_une_civili",
+          "text": {
+            "fixedValue": "     était-il une menace  absolue "
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 52,
+          "y": 105,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_perca_le_voile_des_dimensions_et",
+          "text": {
+            "fixedValue": "En explorant les vestiges du passé, vous découvrez  "
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 52,
+          "y": 118,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_rootia_un_monde_regi_par_une_en",
+          "text": {
+            "fixedValue": "que l'Histoire a été altérée."
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 52,
+          "y": 131,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_34",
+          "text": {
+            "fixedValue": "4/4"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 361,
+          "y": 66,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_root",
+          "text": {
+            "fixedValue": "Root"
+          },
+          "color": {
+            "value": -10092544,
+            "falpha": 0.0
+          },
+          "hasShadow": true,
+          "x": 52,
+          "y": 104,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_pour_atteindre_la_verite_il_vou",
+          "text": {
+            "fixedValue": "Pour atteindre la vérité, il vous faudra triompher "
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 52,
+          "y": 146,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_du_gardien_et_penetrer_dans_roo",
+          "text": {
+            "fixedValue": "du Gardien et pénétrer dans Rootia.  "
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 51,
+          "y": 159,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_croixgui1",
+          "image": "croixgui1.png",
+          "hoveredImage": "",
+          "onClick": "Guiproclore4",
+          "x": 335,
+          "y": 134,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 7,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

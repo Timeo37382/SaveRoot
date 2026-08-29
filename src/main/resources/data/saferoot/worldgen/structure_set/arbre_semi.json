@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "saferoot:arbre_semi",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 4,
+    "separation": 1,
+    "salt": 473920193
+  }
+}

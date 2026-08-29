@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "saferoot:block/rootia_portal_ew"
+    },
+    "axis=x": {
+      "model": "saferoot:block/rootia_portal_ns"
+    }
+  }
+}

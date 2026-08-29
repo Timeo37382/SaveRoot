@@ -1,0 +1,41 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "saferoot:item/boussole_root_16"
+  },
+  "overrides": [
+    { "predicate": { "angle": 0.000000 }, "model": "saferoot:item/boussole_root_16" },
+    { "predicate": { "angle": 0.015625 }, "model": "saferoot:item/boussole_root_17" },
+    { "predicate": { "angle": 0.046875 }, "model": "saferoot:item/boussole_root_18" },
+    { "predicate": { "angle": 0.078125 }, "model": "saferoot:item/boussole_root_19" },
+    { "predicate": { "angle": 0.109375 }, "model": "saferoot:item/boussole_root_20" },
+    { "predicate": { "angle": 0.140625 }, "model": "saferoot:item/boussole_root_21" },
+    { "predicate": { "angle": 0.171875 }, "model": "saferoot:item/boussole_root_22" },
+    { "predicate": { "angle": 0.203125 }, "model": "saferoot:item/boussole_root_23" },
+    { "predicate": { "angle": 0.234375 }, "model": "saferoot:item/boussole_root_24" },
+    { "predicate": { "angle": 0.265625 }, "model": "saferoot:item/boussole_root_25" },
+    { "predicate": { "angle": 0.296875 }, "model": "saferoot:item/boussole_root_26" },
+    { "predicate": { "angle": 0.328125 }, "model": "saferoot:item/boussole_root_27" },
+    { "predicate": { "angle": 0.359375 }, "model": "saferoot:item/boussole_root_28" },
+    { "predicate": { "angle": 0.390625 }, "model": "saferoot:item/boussole_root_29" },
+    { "predicate": { "angle": 0.421875 }, "model": "saferoot:item/boussole_root_30" },
+    { "predicate": { "angle": 0.453125 }, "model": "saferoot:item/boussole_root_31" },
+    { "predicate": { "angle": 0.484375 }, "model": "saferoot:item/boussole_root_00" },
+    { "predicate": { "angle": 0.515625 }, "model": "saferoot:item/boussole_root_01" },
+    { "predicate": { "angle": 0.546875 }, "model": "saferoot:item/boussole_root_02" },
+    { "predicate": { "angle": 0.578125 }, "model": "saferoot:item/boussole_root_03" },
+    { "predicate": { "angle": 0.609375 }, "model": "saferoot:item/boussole_root_04" },
+    { "predicate": { "angle": 0.640625 }, "model": "saferoot:item/boussole_root_05" },
+    { "predicate": { "angle": 0.671875 }, "model": "saferoot:item/boussole_root_06" },
+    { "predicate": { "angle": 0.703125 }, "model": "saferoot:item/boussole_root_07" },
+    { "predicate": { "angle": 0.734375 }, "model": "saferoot:item/boussole_root_08" },
+    { "predicate": { "angle": 0.765625 }, "model": "saferoot:item/boussole_root_09" },
+    { "predicate": { "angle": 0.796875 }, "model": "saferoot:item/boussole_root_10" },
+    { "predicate": { "angle": 0.828125 }, "model": "saferoot:item/boussole_root_11" },
+    { "predicate": { "angle": 0.859375 }, "model": "saferoot:item/boussole_root_12" },
+    { "predicate": { "angle": 0.890625 }, "model": "saferoot:item/boussole_root_13" },
+    { "predicate": { "angle": 0.921875 }, "model": "saferoot:item/boussole_root_14" },
+    { "predicate": { "angle": 0.953125 }, "model": "saferoot:item/boussole_root_15" },
+    { "predicate": { "angle": 0.984375 }, "model": "saferoot:item/boussole_root_16" }
+  ]
+}

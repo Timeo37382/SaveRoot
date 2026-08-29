@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "saferoot:block/bois_en_rootium_slab"
+    },
+    "type=top": {
+      "model": "saferoot:block/bois_en_rootium_slab_top"
+    },
+    "type=double": {
+      "model": "saferoot:block/bois_en_rootium_slab_full"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 3,
+    "group": "wooden_door",
+    "unlockingItems": [
+      "CUSTOM:BoisEnRootiumPlanks"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "REDSTONE",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "CUSTOM:BoisEnRootiumPlanks",
+      "CUSTOM:BoisEnRootiumPlanks",
+      "",
+      "CUSTOM:BoisEnRootiumPlanks",
+      "CUSTOM:BoisEnRootiumPlanks",
+      "",
+      "CUSTOM:BoisEnRootiumPlanks",
+      "CUSTOM:BoisEnRootiumPlanks",
+      ""
+    ],
+    "recipeReturnStack": "CUSTOM:BoisEnRootiumDoor",
+    "name": "bois_en_rootium_door_recipe",
+    "namespace": "mod"
+  }
+}

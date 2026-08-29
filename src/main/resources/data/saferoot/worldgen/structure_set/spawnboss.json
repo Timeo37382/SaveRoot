@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "saferoot:spawnboss",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 63,
+    "separation": 32,
+    "salt": 618203471
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "_fv": 89,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 338,
+    "height": 119,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "pixelrootprojet.png",
+          "use1Xscale": false,
+          "x": 38,
+          "y": 38,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_bien_avant_notre_ere_une_civili",
+          "text": {
+            "fixedValue": "Bien avant notre ère, une civilisation disparue "
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 52,
+          "y": 105,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_perca_le_voile_des_dimensions_et",
+          "text": {
+            "fixedValue": "perça le voile des dimensions et découvrit  : "
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 52,
+          "y": 118,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_rootia_un_monde_regi_par_une_en",
+          "text": {
+            "fixedValue": "Rootia, un monde régi par une entité au  "
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 52,
+          "y": 131,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_pouvoir_incommensurable",
+          "text": {
+            "fixedValue": "pouvoir incommensurable :  "
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 52,
+          "y": 144,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_root",
+          "text": {
+            "fixedValue": "Root"
+          },
+          "color": {
+            "value": -10092544,
+            "falpha": 0.0
+          },
+          "hasShadow": true,
+          "x": 53,
+          "y": 157,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_14",
+          "text": {
+            "fixedValue": "1/4"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 361,
+          "y": 67,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_flechepng",
+          "image": "flechepng.png",
+          "hoveredImage": "",
+          "onClick": "Guiproclore1",
+          "x": 345,
+          "y": 142,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 7,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

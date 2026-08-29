@@ -1,0 +1,1617 @@
+{
+  "mod_elements": [
+    {
+      "name": "Lingotderootium",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lingotderootium",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/saferoot/item/LingotderootiumItem.java",
+          "src/main/resources/assets/saferoot/models/item/lingotderootium.json"
+        ]
+      }
+    },
+    {
+      "name": "RootiumBrut",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rootium_brut",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/saferoot/models/item/rootium_brut.json",
+          "src/main/java/net/mcreator/saferoot/item/RootiumBrutItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Rootium",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rootium",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/saferoot/neoforge/biome_modifier/rootium_biome_modifier.json",
+          "src/main/resources/data/saferoot/worldgen/placed_feature/rootium.json",
+          "src/main/resources/assets/saferoot/models/item/rootium.json",
+          "src/main/resources/data/saferoot/loot_table/blocks/rootium.json",
+          "src/main/resources/assets/saferoot/blockstates/rootium.json",
+          "src/main/java/net/mcreator/saferoot/block/RootiumBlock.java",
+          "src/main/resources/data/saferoot/worldgen/configured_feature/rootium.json",
+          "src/main/resources/assets/saferoot/models/block/rootium.json"
+        ]
+      }
+    },
+    {
+      "name": "Cuisson",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cuisson",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/saferoot/recipe/cuisson.json",
+          "src/main/resources/data/saferoot/advancement/recipes/cuisson.json"
+        ]
+      }
+    },
+    {
+      "name": "ArmureEnRootium",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "armure_en_rootium",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/saferoot/models/item/armure_en_rootium_leggings.json",
+          "src/main/java/net/mcreator/saferoot/item/ArmureEnRootiumItem.java",
+          "src/main/resources/assets/saferoot/models/item/armure_en_rootium_chestplate.json",
+          "src/main/resources/assets/saferoot/models/item/armure_en_rootium_boots.json",
+          "src/main/resources/assets/saferoot/models/item/armure_en_rootium_helmet.json"
+        ]
+      }
+    },
+    {
+      "name": "Pioche",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pioche",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/saferoot/item/PiocheItem.java",
+          "src/main/resources/assets/saferoot/models/item/pioche.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftPioche",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_pioche",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/saferoot/recipe/craft_pioche.json"
+        ]
+      }
+    },
+    {
+      "name": "Hache",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hache",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/saferoot/item/HacheItem.java",
+          "src/main/resources/assets/saferoot/models/item/hache.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftHache",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_hache",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/saferoot/recipe/craft_hache.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftBotte",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_botte",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/saferoot/recipe/craft_botte.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftPAntlon",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_p_antlon",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/saferoot/recipe/craft_p_antlon.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftPlastron",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_plastron",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/saferoot/recipe/craft_plastron.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftCasque",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_casque",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/saferoot/recipe/craft_casque.json"
+        ]
+      }
+    },
+    {
+      "name": "BlocDeRootium",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloc_de_rootium",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/saferoot/block/BlocDeRootiumBlock.java",
+          "src/main/resources/assets/saferoot/blockstates/bloc_de_rootium.json",
+          "src/main/resources/assets/saferoot/models/item/bloc_de_rootium.json",
+          "src/main/resources/assets/saferoot/models/block/bloc_de_rootium.json",
+          "src/main/resources/data/saferoot/loot_table/blocks/bloc_de_rootium.json"
+        ]
+      }
+    },
+    {
+      "name": "HOUE",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "houe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/saferoot/item/HOUEItem.java",
+          "src/main/resources/assets/saferoot/models/item/houe.json"
+        ]
+      }
+    },
+    {
+      "name": "Epee",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "epee",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/saferoot/models/item/epee.json",
+          "src/main/java/net/mcreator/saferoot/item/EpeeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Pelle",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pelle",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/saferoot/models/item/pelle.json",
+          "src/main/java/net/mcreator/saferoot/item/PelleItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Craftpelle",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craftpelle",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/saferoot/recipe/craftpelle.json"
+        ]
+      }
+    },
+    {
+      "name": "Crafteppe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crafteppe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/saferoot/recipe/crafteppe.json"
+        ]
+      }
+    },
+    {
+      "name": "Crafthoue",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crafthoue",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/saferoot/recipe/crafthoue.json"
+        ]
+      }
+    },
+    {
+      "name": "Craftbloc",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craftbloc",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/saferoot/recipe/craftbloc.json"
+        ]
+      }
+    },
+    {
+      "name": "VeinMinerPioche",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "vein_miner_pioche",
+      "metadata": {
+        "dependencies": [],
+        "files": [
+          "src/main/java/net/mcreator/saferoot/procedures/VeinMinerPiocheProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "TreeFellerHache",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "tree_feller_hache",
+      "metadata": {
+        "dependencies": [],
+        "files": [
+          "src/main/java/net/mcreator/saferoot/procedures/TreeFellerHacheProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Pelle3X3",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "pelle_3_x_3",
+      "metadata": {
+        "dependencies": [],
+        "files": [
+          "src/main/java/net/mcreator/saferoot/procedures/Pelle3X3Procedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Peespecialee",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "peespecialee",
+      "metadata": {
+        "dependencies": [],
+        "files": [
+          "src/main/java/net/mcreator/saferoot/procedures/PeespecialeeProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Houespecial",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "houespecial",
+      "metadata": {
+        "dependencies": [],
+        "files": [
+          "src/main/java/net/mcreator/saferoot/procedures/HouespecialProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "EffetArmure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "effet_armure",
+      "metadata": {
+        "dependencies": [],
+        "files": [
+          "src/main/java/net/mcreator/saferoot/procedures/EffetArmureProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "ROOT",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "root",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/saferoot/neoforge/biome_modifier/root_biome_modifier.json",
+          "src/main/java/net/mcreator/saferoot/client/renderer/ROOTRenderer.java",
+          "src/main/java/net/mcreator/saferoot/entity/model/ROOTModel.java",
+          "src/main/resources/assets/saferoot/models/item/root_spawn_egg.json",
+          "src/main/java/net/mcreator/saferoot/entity/ROOTEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "Herbeenrootium",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "herbeenrootium",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/saferoot/loot_table/blocks/herbeenrootium.json",
+          "src/main/resources/assets/saferoot/blockstates/herbeenrootium.json",
+          "src/main/resources/assets/saferoot/models/block/herbeenrootium.json",
+          "src/main/java/net/mcreator/saferoot/block/HerbeenrootiumBlock.java",
+          "src/main/resources/assets/saferoot/models/item/herbeenrootium.json"
+        ]
+      }
+    },
+    {
+      "name": "Feuillagerootium",
+      "type": "block",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "feuillagerootium",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/saferoot/models/item/feuillagerootium.json",
+          "src/main/resources/assets/saferoot/blockstates/feuillagerootium.json",
+          "src/main/java/net/mcreator/saferoot/block/FeuillagerootiumBlock.java",
+          "src/main/resources/data/saferoot/loot_table/blocks/feuillagerootium.json",
+          "src/main/resources/assets/saferoot/models/block/feuillagerootium.json"
+        ]
+      }
+    },
+    {
+      "name": "Rootia",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "rootia",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/saferoot/dimension_type/rootia.json",
+          "src/main/resources/data/saferoot/dimension/rootia.json",
+          "src/main/java/net/mcreator/saferoot/item/RootiaItem.java",
+          "src/main/java/net/mcreator/saferoot/world/teleporter/RootiaTeleporter.java",
+          "src/main/resources/assets/saferoot/models/block/rootia_portal_ns.json",
+          "src/main/java/net/mcreator/saferoot/world/dimension/RootiaDimension.java",
+          "src/main/resources/assets/saferoot/models/block/rootia_portal_ew.json",
+          "src/main/resources/assets/saferoot/blockstates/rootia_portal.json",
+          "src/main/java/net/mcreator/saferoot/world/teleporter/RootiaPortalShape.java",
+          "src/main/resources/assets/saferoot/models/item/rootia.json",
+          "src/main/java/net/mcreator/saferoot/block/RootiaPortalBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "FleurEnRootium",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fleur_en_rootium",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/saferoot/models/block/fleur_en_rootium.json",
+          "src/main/resources/assets/saferoot/blockstates/fleur_en_rootium.json",
+          "src/main/java/net/mcreator/saferoot/block/FleurEnRootiumBlock.java",
+          "src/main/resources/assets/saferoot/models/item/fleur_en_rootium.json",
+          "src/main/resources/data/saferoot/loot_table/blocks/fleur_en_rootium.json"
+        ]
+      }
+    },
+    {
+      "name": "Hebre",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hebre",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/saferoot/blockstates/hebre.json",
+          "src/main/resources/data/saferoot/neoforge/biome_modifier/hebre_biome_modifier.json",
+          "src/main/resources/data/saferoot/loot_table/blocks/hebre.json",
+          "src/main/resources/assets/saferoot/models/item/hebre.json",
+          "src/main/resources/assets/saferoot/models/block/hebre.json",
+          "src/main/java/net/mcreator/saferoot/block/HebreBlock.java",
+          "src/main/resources/data/saferoot/worldgen/configured_feature/hebre.json",
+          "src/main/resources/data/saferoot/worldgen/placed_feature/hebre.json"
+        ]
+      }
+    },
+    {
+      "name": "BoisEnRootiumLog",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bois_en_rootium_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/saferoot/models/block/bois_en_rootium_log.json",
+          "src/main/java/net/mcreator/saferoot/block/BoisEnRootiumLogBlock.java",
+          "src/main/resources/assets/saferoot/models/item/bois_en_rootium_log.json",
+          "src/main/resources/assets/saferoot/blockstates/bois_en_rootium_log.json",
+          "src/main/resources/data/saferoot/loot_table/blocks/bois_en_rootium_log.json"
+        ]
+      }
+    },
+    {
+      "name": "BoisEnRootiumWood",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bois_en_rootium_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/saferoot/models/item/bois_en_rootium_wood.json",
+          "src/main/resources/assets/saferoot/models/block/bois_en_rootium_wood.json",
+          "src/main/resources/assets/saferoot/blockstates/bois_en_rootium_wood.json",
+          "src/main/java/net/mcreator/saferoot/block/BoisEnRootiumWoodBlock.java",
+          "src/main/resources/data/saferoot/loot_table/blocks/bois_en_rootium_wood.json"
+        ]
+      }
+    },
+    {
+      "name": "StrippedBoisEnRootiumLog",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_bois_en_rootium_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/saferoot/blockstates/stripped_bois_en_rootium_log.json",
+          "src/main/java/net/mcreator/saferoot/block/StrippedBoisEnRootiumLogBlock.java",
+          "src/main/resources/data/saferoot/loot_table/blocks/stripped_bois_en_rootium_log.json",
+          "src/main/resources/assets/saferoot/models/block/stripped_bois_en_rootium_log.json",
+          "src/main/resources/assets/saferoot/models/item/stripped_bois_en_rootium_log.json"
+        ]
+      }
+    },
+    {
+      "name": "StrippedBoisEnRootiumWood",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_bois_en_rootium_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/saferoot/models/item/stripped_bois_en_rootium_wood.json",
+          "src/main/resources/data/saferoot/loot_table/blocks/stripped_bois_en_rootium_wood.json",
+          "src/main/resources/assets/saferoot/blockstates/stripped_bois_en_rootium_wood.json",
+          "src/main/resources/assets/saferoot/models/block/stripped_bois_en_rootium_wood.json",
+          "src/main/java/net/mcreator/saferoot/block/StrippedBoisEnRootiumWoodBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "BoisEnRootiumPlanks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bois_en_rootium_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/saferoot/loot_table/blocks/bois_en_rootium_planks.json",
+          "src/main/resources/assets/saferoot/blockstates/bois_en_rootium_planks.json",
+          "src/main/resources/assets/saferoot/models/block/bois_en_rootium_planks.json",
+          "src/main/resources/assets/saferoot/models/item/bois_en_rootium_planks.json",
+          "src/main/java/net/mcreator/saferoot/block/BoisEnRootiumPlanksBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "BoisEnRootiumStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bois_en_rootium_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/saferoot/blockstates/bois_en_rootium_stairs.json",
+          "src/main/resources/assets/saferoot/models/block/bois_en_rootium_stairs_outer.json",
+          "src/main/resources/assets/saferoot/models/block/bois_en_rootium_stairs.json",
+          "src/main/java/net/mcreator/saferoot/block/BoisEnRootiumStairsBlock.java",
+          "src/main/resources/assets/saferoot/models/block/bois_en_rootium_stairs_inner.json",
+          "src/main/resources/data/saferoot/loot_table/blocks/bois_en_rootium_stairs.json",
+          "src/main/resources/assets/saferoot/models/item/bois_en_rootium_stairs.json"
+        ]
+      }
+    },
+    {
+      "name": "BoisEnRootiumSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bois_en_rootium_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/saferoot/blockstates/bois_en_rootium_slab.json",
+          "src/main/resources/assets/saferoot/models/block/bois_en_rootium_slab_top.json",
+          "src/main/resources/assets/saferoot/models/block/bois_en_rootium_slab.json",
+          "src/main/java/net/mcreator/saferoot/block/BoisEnRootiumSlabBlock.java",
+          "src/main/resources/data/saferoot/loot_table/blocks/bois_en_rootium_slab.json",
+          "src/main/resources/assets/saferoot/models/item/bois_en_rootium_slab.json",
+          "src/main/resources/assets/saferoot/models/block/bois_en_rootium_slab_full.json"
+        ]
+      }
+    },
+    {
+      "name": "BoisEnRootiumFence",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bois_en_rootium_fence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/saferoot/blockstates/bois_en_rootium_fence.json",
+          "src/main/resources/assets/saferoot/models/item/bois_en_rootium_fence.json",
+          "src/main/resources/assets/saferoot/models/block/bois_en_rootium_fence_post.json",
+          "src/main/resources/assets/saferoot/models/block/bois_en_rootium_fence.json",
+          "src/main/resources/data/saferoot/loot_table/blocks/bois_en_rootium_fence.json",
+          "src/main/resources/assets/saferoot/models/block/bois_en_rootium_fence_inventory.json",
+          "src/main/java/net/mcreator/saferoot/block/BoisEnRootiumFenceBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "BoisEnRootiumFenceGate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bois_en_rootium_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/saferoot/models/block/bois_en_rootium_fence_gate.json",
+          "src/main/resources/assets/saferoot/models/item/bois_en_rootium_fence_gate.json",
+          "src/main/resources/assets/saferoot/blockstates/bois_en_rootium_fence_gate.json",
+          "src/main/resources/assets/saferoot/models/block/bois_en_rootium_fence_gate_wall.json",
+          "src/main/resources/assets/saferoot/models/block/bois_en_rootium_fence_gate_wall_open.json",
+          "src/main/resources/data/saferoot/loot_table/blocks/bois_en_rootium_fence_gate.json",
+          "src/main/resources/assets/saferoot/models/block/bois_en_rootium_fence_gate_open.json",
+          "src/main/java/net/mcreator/saferoot/block/BoisEnRootiumFenceGateBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "BoisEnRootiumDoor",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bois_en_rootium_door",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/saferoot/models/block/bois_en_rootium_door_bottom_left.json",
+          "src/main/resources/assets/saferoot/models/item/bois_en_rootium_door.json",
+          "src/main/resources/assets/saferoot/models/block/bois_en_rootium_door_bottom_right.json",
+          "src/main/java/net/mcreator/saferoot/block/BoisEnRootiumDoorBlock.java",
+          "src/main/resources/assets/saferoot/models/block/bois_en_rootium_door_top_left_open.json",
+          "src/main/resources/assets/saferoot/models/block/bois_en_rootium_door_bottom_right_open.json",
+          "src/main/resources/assets/saferoot/blockstates/bois_en_rootium_door.json",
+          "src/main/resources/assets/saferoot/models/block/bois_en_rootium_door_top_right_open.json",
+          "src/main/resources/assets/saferoot/models/block/bois_en_rootium_door_top_left.json",
+          "src/main/resources/data/saferoot/loot_table/blocks/bois_en_rootium_door.json",
+          "src/main/resources/assets/saferoot/models/block/bois_en_rootium_door_bottom_left_open.json",
+          "src/main/resources/assets/saferoot/models/block/bois_en_rootium_door_top_right.json"
+        ]
+      }
+    },
+    {
+      "name": "BoisEnRootiumTrapdoor",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bois_en_rootium_trapdoor",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/saferoot/loot_table/blocks/bois_en_rootium_trapdoor.json",
+          "src/main/resources/assets/saferoot/models/block/bois_en_rootium_trapdoor_top.json",
+          "src/main/resources/assets/saferoot/models/block/bois_en_rootium_trapdoor.json",
+          "src/main/resources/assets/saferoot/models/block/bois_en_rootium_trapdoor_open.json",
+          "src/main/java/net/mcreator/saferoot/block/BoisEnRootiumTrapdoorBlock.java",
+          "src/main/resources/assets/saferoot/models/item/bois_en_rootium_trapdoor.json",
+          "src/main/resources/assets/saferoot/blockstates/bois_en_rootium_trapdoor.json"
+        ]
+      }
+    },
+    {
+      "name": "BoisEnRootiumPressurePlate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bois_en_rootium_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/saferoot/block/BoisEnRootiumPressurePlateBlock.java",
+          "src/main/resources/assets/saferoot/models/item/bois_en_rootium_pressure_plate.json",
+          "src/main/resources/data/saferoot/loot_table/blocks/bois_en_rootium_pressure_plate.json",
+          "src/main/resources/assets/saferoot/models/block/bois_en_rootium_pressure_plate.json",
+          "src/main/resources/assets/saferoot/blockstates/bois_en_rootium_pressure_plate.json",
+          "src/main/resources/assets/saferoot/models/block/bois_en_rootium_pressure_plate_down.json"
+        ]
+      }
+    },
+    {
+      "name": "BoisEnRootiumButton",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bois_en_rootium_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/saferoot/loot_table/blocks/bois_en_rootium_button.json",
+          "src/main/resources/assets/saferoot/models/block/bois_en_rootium_button_pressed.json",
+          "src/main/java/net/mcreator/saferoot/block/BoisEnRootiumButtonBlock.java",
+          "src/main/resources/assets/saferoot/models/item/bois_en_rootium_button.json",
+          "src/main/resources/assets/saferoot/blockstates/bois_en_rootium_button.json",
+          "src/main/resources/assets/saferoot/models/block/bois_en_rootium_button.json",
+          "src/main/resources/assets/saferoot/models/block/bois_en_rootium_button_inventory.json"
+        ]
+      }
+    },
+    {
+      "name": "BoisEnRootiumSign",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bois_en_rootium_sign",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/saferoot/blockstates/bois_en_rootium_sign.json",
+          "src/main/java/net/mcreator/saferoot/block/BoisEnRootiumSignBlock.java",
+          "src/main/java/net/mcreator/saferoot/block/BoisEnRootiumWallSignBlock.java",
+          "src/main/resources/data/saferoot/loot_table/blocks/bois_en_rootium_sign.json",
+          "src/main/resources/assets/saferoot/models/item/bois_en_rootium_sign.json",
+          "src/main/resources/assets/saferoot/models/block/bois_en_rootium_sign.json",
+          "src/main/resources/assets/saferoot/blockstates/bois_en_rootium_wall_sign.json"
+        ]
+      }
+    },
+    {
+      "name": "BoisEnRootiumHangingSign",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bois_en_rootium_hanging_sign",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/saferoot/block/BoisEnRootiumHangingSignBlock.java",
+          "src/main/resources/assets/saferoot/blockstates/bois_en_rootium_wall_hanging_sign.json",
+          "src/main/java/net/mcreator/saferoot/block/BoisEnRootiumWallHangingSignBlock.java",
+          "src/main/resources/assets/saferoot/blockstates/bois_en_rootium_hanging_sign.json",
+          "src/main/resources/assets/saferoot/models/block/bois_en_rootium_hanging_sign.json",
+          "src/main/resources/data/saferoot/loot_table/blocks/bois_en_rootium_hanging_sign.json",
+          "src/main/resources/assets/saferoot/models/item/bois_en_rootium_hanging_sign.json"
+        ]
+      }
+    },
+    {
+      "name": "BoisEnRootiumWoodRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bois_en_rootium_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/saferoot/recipe/bois_en_rootium_wood_recipe.json",
+          "src/main/resources/data/saferoot/advancement/recipes/bois_en_rootium_wood_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "StrippedBoisEnRootiumWoodRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_bois_en_rootium_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/saferoot/advancement/recipes/stripped_bois_en_rootium_wood_recipe.json",
+          "src/main/resources/data/saferoot/recipe/stripped_bois_en_rootium_wood_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BoisEnRootiumPlanksRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bois_en_rootium_planks_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/saferoot/recipe/bois_en_rootium_planks_recipe.json",
+          "src/main/resources/data/saferoot/advancement/recipes/bois_en_rootium_planks_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BoisEnRootiumStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bois_en_rootium_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/saferoot/advancement/recipes/bois_en_rootium_stairs_recipe.json",
+          "src/main/resources/data/saferoot/recipe/bois_en_rootium_stairs_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BoisEnRootiumSlabRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bois_en_rootium_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/saferoot/advancement/recipes/bois_en_rootium_slab_recipe.json",
+          "src/main/resources/data/saferoot/recipe/bois_en_rootium_slab_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BoisEnRootiumFenceRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bois_en_rootium_fence_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/saferoot/recipe/bois_en_rootium_fence_recipe.json",
+          "src/main/resources/data/saferoot/advancement/recipes/bois_en_rootium_fence_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BoisEnRootiumFenceGateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bois_en_rootium_fence_gate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/saferoot/advancement/recipes/bois_en_rootium_fence_gate_recipe.json",
+          "src/main/resources/data/saferoot/recipe/bois_en_rootium_fence_gate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BoisEnRootiumDoorRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bois_en_rootium_door_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/saferoot/advancement/recipes/bois_en_rootium_door_recipe.json",
+          "src/main/resources/data/saferoot/recipe/bois_en_rootium_door_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BoisEnRootiumTrapdoorRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bois_en_rootium_trapdoor_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/saferoot/recipe/bois_en_rootium_trapdoor_recipe.json",
+          "src/main/resources/data/saferoot/advancement/recipes/bois_en_rootium_trapdoor_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BoisEnRootiumPressurePlateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bois_en_rootium_pressure_plate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/saferoot/advancement/recipes/bois_en_rootium_pressure_plate_recipe.json",
+          "src/main/resources/data/saferoot/recipe/bois_en_rootium_pressure_plate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BoisEnRootiumButtonRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bois_en_rootium_button_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/saferoot/recipe/bois_en_rootium_button_recipe.json",
+          "src/main/resources/data/saferoot/advancement/recipes/bois_en_rootium_button_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BoisEnRootiumSignRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bois_en_rootium_sign_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/saferoot/advancement/recipes/bois_en_rootium_sign_recipe.json",
+          "src/main/resources/data/saferoot/recipe/bois_en_rootium_sign_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BoisEnRootiumHangingSignRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bois_en_rootium_hanging_sign_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/saferoot/recipe/bois_en_rootium_hanging_sign_recipe.json",
+          "src/main/resources/data/saferoot/advancement/recipes/bois_en_rootium_hanging_sign_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BoisEnRootiumBoatRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bois_en_rootium_boat_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/saferoot/advancement/recipes/bois_en_rootium_boat_recipe.json",
+          "src/main/resources/data/saferoot/recipe/bois_en_rootium_boat_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BoisEnRootiumChestBoatRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bois_en_rootium_chest_boat_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/saferoot/recipe/bois_en_rootium_chest_boat_recipe.json",
+          "src/main/resources/data/saferoot/advancement/recipes/bois_en_rootium_chest_boat_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Coeurderoot",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coeurderoot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/saferoot/models/block/coeurderoot.json",
+          "src/main/resources/assets/saferoot/blockstates/coeurderoot.json",
+          "src/main/java/net/mcreator/saferoot/block/CoeurderootBlock.java",
+          "src/main/resources/data/saferoot/loot_table/blocks/coeurderoot.json",
+          "src/main/resources/assets/saferoot/models/item/coeurderoot.json"
+        ]
+      }
+    },
+    {
+      "name": "WhitherRoot",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "whither_root",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/saferoot/entity/WhitherRootEntity.java",
+          "src/main/resources/data/saferoot/neoforge/biome_modifier/whither_root_biome_modifier.json",
+          "src/main/resources/assets/saferoot/models/item/whither_root_spawn_egg.json",
+          "src/main/java/net/mcreator/saferoot/client/renderer/WhitherRootRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "BoussoleRoot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "boussole_root",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/saferoot/item/BoussoleRootItem.java",
+          "src/main/resources/assets/saferoot/models/item/boussole_root.json"
+        ]
+      }
+    },
+    {
+      "name": "CRAFTBOUSSOLE",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craftboussole",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/saferoot/recipe/craftboussole.json"
+        ]
+      }
+    },
+    {
+      "name": "Loregui",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "loregui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/saferoot/client/gui/LoreguiScreen.java",
+          "src/main/java/net/mcreator/saferoot/network/LoreguiButtonMessage.java",
+          "src/main/java/net/mcreator/saferoot/world/inventory/LoreguiMenu.java"
+        ]
+      }
+    },
+    {
+      "name": "Loregui2",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "loregui_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/saferoot/network/Loregui2ButtonMessage.java",
+          "src/main/java/net/mcreator/saferoot/client/gui/Loregui2Screen.java",
+          "src/main/java/net/mcreator/saferoot/world/inventory/Loregui2Menu.java"
+        ]
+      }
+    },
+    {
+      "name": "Loregui3",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "loregui_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/saferoot/world/inventory/Loregui3Menu.java",
+          "src/main/java/net/mcreator/saferoot/client/gui/Loregui3Screen.java",
+          "src/main/java/net/mcreator/saferoot/network/Loregui3ButtonMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "Loregui4",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "loregui_4",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/saferoot/world/inventory/Loregui4Menu.java",
+          "src/main/java/net/mcreator/saferoot/network/Loregui4ButtonMessage.java",
+          "src/main/java/net/mcreator/saferoot/client/gui/Loregui4Screen.java"
+        ]
+      }
+    },
+    {
+      "name": "Guiproclore1",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guiproclore_1",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/saferoot/procedures/Guiproclore1Procedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Guiproclore2",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guiproclore_2",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/saferoot/procedures/Guiproclore2Procedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Guiproclore3",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guiproclore_3",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/saferoot/procedures/Guiproclore3Procedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Guiproclore4",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guiproclore_4",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/saferoot/procedures/Guiproclore4Procedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Ouverturelore",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ouverturelore",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/saferoot/procedures/OuvertureloreProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "RootModeMiner",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "root_mode_miner",
+      "metadata": {
+        "dependencies": [],
+        "files": [
+          "src/main/java/net/mcreator/saferoot/procedures/RootModeMinerProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "RootModeAttaquer",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "root_mode_attaquer",
+      "metadata": {
+        "dependencies": [],
+        "files": [
+          "src/main/java/net/mcreator/saferoot/procedures/RootModeAttaquerProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "RootModeBucher",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "root_mode_bucher",
+      "metadata": {
+        "dependencies": [],
+        "files": [
+          "src/main/java/net/mcreator/saferoot/procedures/RootModeBucherProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "RootGolemGui",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "root_golem_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/saferoot/network/RootGolemGuiButtonMessage.java",
+          "src/main/java/net/mcreator/saferoot/world/inventory/RootGolemGuiMenu.java",
+          "src/main/java/net/mcreator/saferoot/client/gui/RootGolemGuiScreen.java"
+        ]
+      }
+    },
+    {
+      "name": "VacheEnRootium",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "vache_en_rootium",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/saferoot/client/renderer/VacheEnRootiumRenderer.java",
+          "src/main/java/net/mcreator/saferoot/entity/VacheEnRootiumEntity.java",
+          "src/main/resources/data/saferoot/neoforge/biome_modifier/vache_en_rootium_biome_modifier.json",
+          "src/main/resources/assets/saferoot/models/item/vache_en_rootium_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "CochonRootium",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "cochon_rootium",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/saferoot/entity/CochonRootiumEntity.java",
+          "src/main/resources/data/saferoot/neoforge/biome_modifier/cochon_rootium_biome_modifier.json",
+          "src/main/java/net/mcreator/saferoot/client/renderer/CochonRootiumRenderer.java",
+          "src/main/resources/assets/saferoot/models/item/cochon_rootium_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "PouleRootium",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "poule_rootium",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/saferoot/client/renderer/PouleRootiumRenderer.java",
+          "src/main/resources/assets/saferoot/models/item/poule_rootium_spawn_egg.json",
+          "src/main/java/net/mcreator/saferoot/entity/PouleRootiumEntity.java",
+          "src/main/resources/data/saferoot/neoforge/biome_modifier/poule_rootium_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "SaplingRootim",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "sapling_rootim",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/saferoot/block/SaplingRootimBlock.java",
+          "src/main/resources/assets/saferoot/blockstates/sapling_rootim.json",
+          "src/main/resources/assets/saferoot/models/block/sapling_rootim.json",
+          "src/main/resources/data/saferoot/loot_table/blocks/sapling_rootim.json",
+          "src/main/resources/assets/saferoot/models/item/sapling_rootim.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "vein_miner_toggle",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    }
+  ],
+  "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~Rootia@Blocks.BAMBOO_MOSAIC"
+    ],
+    "BLOCKS:mod:bois_en_rootium_logs": [
+      "CUSTOM:BoisEnRootiumLog",
+      "CUSTOM:BoisEnRootiumWood",
+      "CUSTOM:StrippedBoisEnRootiumLog",
+      "CUSTOM:StrippedBoisEnRootiumWood"
+    ],
+    "BLOCKS:minecraft:logs_that_burn": [
+      "TAG:mod:bois_en_rootium_logs"
+    ],
+    "BLOCKS:minecraft:planks": [
+      "CUSTOM:BoisEnRootiumPlanks"
+    ],
+    "ITEMS:mod:bois_en_rootium_logs": [
+      "CUSTOM:BoisEnRootiumLog",
+      "CUSTOM:BoisEnRootiumWood",
+      "CUSTOM:StrippedBoisEnRootiumLog",
+      "CUSTOM:StrippedBoisEnRootiumWood"
+    ],
+    "ITEMS:minecraft:logs_that_burn": [
+      "TAG:mod:bois_en_rootium_logs"
+    ],
+    "ITEMS:minecraft:planks": [
+      "CUSTOM:BoisEnRootiumPlanks"
+    ],
+    "ITEMS:minecraft:piglin_loved": [
+      "~Lingotderootium@CUSTOM:Lingotderootium"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~Coeurderoot@CUSTOM:Coeurderoot",
+      "~BlocDeRootium@CUSTOM:BlocDeRootium",
+      "~Rootium@CUSTOM:Rootium"
+    ],
+    "BLOCKS:minecraft:needs_iron_tool": [
+      "~Rootium@CUSTOM:Rootium"
+    ],
+    "ITEMS:minecraft:head_armor": [
+      "~ArmureEnRootium@CUSTOM:ArmureEnRootium.helmet"
+    ],
+    "ITEMS:minecraft:chest_armor": [
+      "~ArmureEnRootium@CUSTOM:ArmureEnRootium.body"
+    ],
+    "ITEMS:minecraft:leg_armor": [
+      "~ArmureEnRootium@CUSTOM:ArmureEnRootium.legs"
+    ],
+    "ITEMS:minecraft:foot_armor": [
+      "~ArmureEnRootium@CUSTOM:ArmureEnRootium.boots"
+    ],
+    "ITEMS:minecraft:pickaxes": [
+      "~Pioche@CUSTOM:Pioche"
+    ],
+    "ITEMS:minecraft:axes": [
+      "~Hache@CUSTOM:Hache"
+    ],
+    "BLOCKS:minecraft:needs_diamond_tool": [
+      "~Coeurderoot@CUSTOM:Coeurderoot",
+      "~BlocDeRootium@CUSTOM:BlocDeRootium"
+    ],
+    "ITEMS:minecraft:hoes": [
+      "~HOUE@CUSTOM:HOUE"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~Epee@CUSTOM:Epee"
+    ],
+    "ITEMS:minecraft:shovels": [
+      "~Pelle@CUSTOM:Pelle"
+    ],
+    "BLOCKS:minecraft:mineable/axe": [
+      "~BoisEnRootiumHangingSign@CUSTOM:BoisEnRootiumHangingSign.wall",
+      "~BoisEnRootiumHangingSign@CUSTOM:BoisEnRootiumHangingSign",
+      "~BoisEnRootiumSign@CUSTOM:BoisEnRootiumSign.wall",
+      "~BoisEnRootiumSign@CUSTOM:BoisEnRootiumSign",
+      "~BoisEnRootiumButton@CUSTOM:BoisEnRootiumButton",
+      "~BoisEnRootiumPressurePlate@CUSTOM:BoisEnRootiumPressurePlate",
+      "~BoisEnRootiumTrapdoor@CUSTOM:BoisEnRootiumTrapdoor",
+      "~BoisEnRootiumDoor@CUSTOM:BoisEnRootiumDoor",
+      "~BoisEnRootiumFenceGate@CUSTOM:BoisEnRootiumFenceGate",
+      "~BoisEnRootiumFence@CUSTOM:BoisEnRootiumFence",
+      "~BoisEnRootiumSlab@CUSTOM:BoisEnRootiumSlab",
+      "~BoisEnRootiumStairs@CUSTOM:BoisEnRootiumStairs",
+      "~BoisEnRootiumPlanks@CUSTOM:BoisEnRootiumPlanks",
+      "~StrippedBoisEnRootiumWood@CUSTOM:StrippedBoisEnRootiumWood",
+      "~StrippedBoisEnRootiumLog@CUSTOM:StrippedBoisEnRootiumLog",
+      "~BoisEnRootiumWood@CUSTOM:BoisEnRootiumWood",
+      "~BoisEnRootiumLog@CUSTOM:BoisEnRootiumLog"
+    ],
+    "BLOCKS:minecraft:stairs": [
+      "~BoisEnRootiumStairs@CUSTOM:BoisEnRootiumStairs"
+    ],
+    "BLOCKS:minecraft:slabs": [
+      "~BoisEnRootiumSlab@CUSTOM:BoisEnRootiumSlab"
+    ],
+    "BLOCKS:minecraft:wooden_fences": [
+      "~BoisEnRootiumFence@CUSTOM:BoisEnRootiumFence"
+    ],
+    "BLOCKS:minecraft:wooden_doors": [
+      "~BoisEnRootiumDoor@CUSTOM:BoisEnRootiumDoor"
+    ],
+    "BLOCKS:minecraft:wooden_trapdoors": [
+      "~BoisEnRootiumTrapdoor@CUSTOM:BoisEnRootiumTrapdoor"
+    ],
+    "BLOCKS:minecraft:wooden_pressure_plates": [
+      "~BoisEnRootiumPressurePlate@CUSTOM:BoisEnRootiumPressurePlate"
+    ],
+    "BLOCKS:minecraft:wooden_buttons": [
+      "~BoisEnRootiumButton@CUSTOM:BoisEnRootiumButton"
+    ],
+    "BLOCKS:minecraft:standing_signs": [
+      "~BoisEnRootiumSign@CUSTOM:BoisEnRootiumSign"
+    ],
+    "BLOCKS:minecraft:wall_signs": [
+      "~BoisEnRootiumSign@CUSTOM:BoisEnRootiumSign.wall"
+    ],
+    "BLOCKS:minecraft:ceiling_hanging_signs": [
+      "~BoisEnRootiumHangingSign@CUSTOM:BoisEnRootiumHangingSign"
+    ],
+    "BLOCKS:minecraft:wall_hanging_signs": [
+      "~BoisEnRootiumHangingSign@CUSTOM:BoisEnRootiumHangingSign.wall"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.saferoot.lingotderootium": "Lingot de Rootium",
+      "item.saferoot.rootium_brut": "Rootium Brut",
+      "block.saferoot.rootium": "Minerais de Rootium",
+      "item.saferoot.armure_en_rootium_chestplate": "Plastron en Rootium",
+      "item.saferoot.armure_en_rootium_leggings": "Jambières en Rootium",
+      "item.saferoot.armure_en_rootium_boots": "Bottes en Rootium",
+      "item.saferoot.armure_en_rootium_helmet": "Casque en Rootium",
+      "item.saferoot.pioche": "Pioche en Rootium",
+      "item.saferoot.hache": "Hache en Rootium",
+      "block.saferoot.bloc_de_rootium": "Bloc De Rootium",
+      "item.saferoot.armure_en_rootium_helmet.description_0": "",
+      "item.saferoot.armure_en_rootium_leggings.description_0": "",
+      "item.saferoot.armure_en_rootium_chestplate.description_0": "",
+      "item.saferoot.armure_en_rootium_boots.description_0": "",
+      "item.saferoot.houe": "Houe en Rootium",
+      "item.saferoot.epee": "épée en Rootium",
+      "item.saferoot.pelle": "pelle en Rootium",
+      "entity.saferoot.root": "ROOT",
+      "item.saferoot.root_spawn_egg": "ROOT Spawn Egg",
+      "block.saferoot.herbeenrootium": "Herbe en rootium",
+      "block.saferoot.feuillagerootium": "Feuillage en Rootium",
+      "item.saferoot.rootia": "Rootia Portal Igniter",
+      "block.saferoot.fleur_en_rootium": "Fleur En Rootium",
+      "block.saferoot.hebre": "Herbe en rootium",
+      "block.saferoot.bois_en_rootium_log": "Bois En Rootium Log",
+      "block.saferoot.bois_en_rootium_wood": "Bois En Rootium Wood",
+      "block.saferoot.stripped_bois_en_rootium_log": "Stripped Bois En Rootium Log",
+      "block.saferoot.stripped_bois_en_rootium_wood": "Stripped Bois En Rootium Wood",
+      "block.saferoot.bois_en_rootium_planks": "Bois En Rootium Planks",
+      "block.saferoot.bois_en_rootium_stairs": "Bois En Rootium Stairs",
+      "block.saferoot.bois_en_rootium_slab": "Bois En Rootium Slab",
+      "block.saferoot.bois_en_rootium_fence": "Bois En Rootium Fence",
+      "block.saferoot.bois_en_rootium_fence_gate": "Bois En Rootium Fence Gate",
+      "block.saferoot.bois_en_rootium_door": "Bois En Rootium Door",
+      "block.saferoot.bois_en_rootium_trapdoor": "Bois En Rootium Trapdoor",
+      "block.saferoot.bois_en_rootium_pressure_plate": "Bois En Rootium Pressure Plate",
+      "block.saferoot.bois_en_rootium_button": "Bois En Rootium Button",
+      "block.saferoot.bois_en_rootium_sign": "Bois En Rootium Sign",
+      "block.saferoot.bois_en_rootium_hanging_sign": "Bois En Rootium Hanging Sign",
+      "block.saferoot.coeurderoot": "Coeur de Root",
+      "item.saferoot.whither_root_spawn_egg": "Wither Root Spawn Egg",
+      "entity.saferoot.whither_root": "Wither Root",
+      "item.saferoot.boussole_root": "Boussole Root",
+      "gui.saferoot.loregui.label_rootia_un_monde_regi_par_une_en": "Rootia, un monde régi par une entité au  ",
+      "gui.saferoot.loregui.label_perca_le_voile_des_dimensions_et": "perça le voile des dimensions et découvrit  : ",
+      "gui.saferoot.loregui.label_root": "Root",
+      "gui.saferoot.loregui.label_bien_avant_notre_ere_une_civili": "Bien avant notre ère, une civilisation disparue ",
+      "gui.saferoot.loregui.label_pouvoir_incommensurable": "pouvoir incommensurable :  ",
+      "gui.saferoot.loregui_2.label_perca_le_voile_des_dimensions_et": "l\u0027enfermèrent au cœur d\u0027un sanctuaire,  ",
+      "gui.saferoot.loregui_2.label_rootia_un_monde_regi_par_une_en": "confièrent sa garde à un immortel protecteur, puis  ",
+      "gui.saferoot.loregui_2.label_root": "Root",
+      "gui.saferoot.loregui_2.label_bien_avant_notre_ere_une_civili": "Effrayés par sa puissance, les Anciens ,",
+      "gui.saferoot.loregui_2.label_pouvoir_incommensurable": "effacèrent toute trace de leur existence. ",
+      "gui.saferoot.loregui_3.label_rootia_un_monde_regi_par_une_en": "que l\u0027Histoire a été altérée.",
+      "gui.saferoot.loregui_3.label_pouvoir_incommensurable": "effacèrent toute trace de leur existence. ",
+      "gui.saferoot.loregui_3.label_bien_avant_notre_ere_une_civili": "Des millénaires plus tard, les sceaux se fissurent. ",
+      "gui.saferoot.loregui_3.label_perca_le_voile_des_dimensions_et": "En explorant les vestiges du passé, vous découvrez  ",
+      "gui.saferoot.loregui_2.label_24": "2/4",
+      "gui.saferoot.loregui.label_14": "1/4",
+      "gui.saferoot.loregui_3.label_34": "3/4",
+      "gui.saferoot.loregui_4.label_34": "4/4",
+      "gui.saferoot.loregui_4.label_perca_le_voile_des_dimensions_et": "En explorant les vestiges du passé, vous découvrez  ",
+      "gui.saferoot.loregui_4.label_rootia_un_monde_regi_par_une_en": "que l\u0027Histoire a été altérée.",
+      "gui.saferoot.loregui_4.label_bien_avant_notre_ere_une_civili": "     était-il une menace  absolue ",
+      "gui.saferoot.loregui_4.label_pour_atteindre_la_verite_il_vou": "Pour atteindre la vérité, il vous faudra triompher ",
+      "gui.saferoot.loregui_4.label_root": "Root",
+      "gui.saferoot.loregui_4.label_du_gardien_et_penetrer_dans_roo": "du Gardien et pénétrer dans Rootia.  ",
+      "gui.saferoot.root_golem_gui.button_attaquer": "Attaquer",
+      "gui.saferoot.root_golem_gui.button_miner": "Miner",
+      "gui.saferoot.root_golem_gui.button_bucher": "Bucher",
+      "item.saveroot.lingotderootium": "Lingot de Rootium",
+      "item.saveroot.rootium_brut": "Rootium Brut",
+      "block.saveroot.rootium": "Minerais de Rootium",
+      "item.saveroot.armure_en_rootium_boots": "Bottes en Rootium",
+      "item.saveroot.armure_en_rootium_chestplate.description_0": "",
+      "item.saveroot.armure_en_rootium_boots.description_0": "",
+      "item.saveroot.armure_en_rootium_chestplate": "Plastron en Rootium",
+      "item.saveroot.armure_en_rootium_helmet": "Casque en Rootium",
+      "item.saveroot.armure_en_rootium_leggings": "Jambières en Rootium",
+      "item.saveroot.armure_en_rootium_leggings.description_0": "",
+      "item.saveroot.pioche": "Pioche en Rootium",
+      "item.saveroot.hache": "Hache en Rootium",
+      "block.saveroot.bloc_de_rootium": "Bloc De Rootium",
+      "item.saveroot.houe": "Houe en Rootium",
+      "item.saveroot.epee": "épée en Rootium",
+      "item.saveroot.pelle": "pelle en Rootium",
+      "block.saveroot.herbeenrootium": "Herbe en rootium",
+      "block.saveroot.feuillagerootium": "Feuillage en Rootium",
+      "block.saveroot.fleur_en_rootium": "Fleur En Rootium",
+      "block.saveroot.hebre": "Herbe en rootium",
+      "block.saveroot.bois_en_rootium_log": "Bois En Rootium Log",
+      "block.saveroot.bois_en_rootium_wood": "Bois En Rootium Wood",
+      "block.saveroot.stripped_bois_en_rootium_log": "Stripped Bois En Rootium Log",
+      "block.saveroot.stripped_bois_en_rootium_wood": "Stripped Bois En Rootium Wood",
+      "block.saveroot.bois_en_rootium_planks": "Bois En Rootium Planks",
+      "block.saveroot.bois_en_rootium_stairs": "Bois En Rootium Stairs",
+      "block.saveroot.bois_en_rootium_slab": "Bois En Rootium Slab",
+      "block.saveroot.bois_en_rootium_fence": "Bois En Rootium Fence",
+      "block.saveroot.bois_en_rootium_fence_gate": "Bois En Rootium Fence Gate",
+      "block.saveroot.bois_en_rootium_door": "Bois En Rootium Door",
+      "block.saveroot.bois_en_rootium_trapdoor": "Bois En Rootium Trapdoor",
+      "block.saveroot.bois_en_rootium_pressure_plate": "Bois En Rootium Pressure Plate",
+      "block.saveroot.bois_en_rootium_button": "Bois En Rootium Button",
+      "block.saveroot.bois_en_rootium_sign": "Bois En Rootium Sign",
+      "block.saveroot.bois_en_rootium_hanging_sign": "Bois En Rootium Hanging Sign",
+      "block.saveroot.coeurderoot": "Coeur de Root",
+      "gui.saveroot.loregui.label_14": "1/4",
+      "gui.saveroot.loregui.label_pouvoir_incommensurable": "pouvoir incommensurable :  ",
+      "gui.saveroot.loregui.label_perca_le_voile_des_dimensions_et": "perça le voile des dimensions et découvrit  : ",
+      "gui.saveroot.loregui.label_bien_avant_notre_ere_une_civili": "Bien avant notre ère, une civilisation disparue ",
+      "gui.saveroot.loregui.label_root": "Root",
+      "gui.saveroot.loregui.label_rootia_un_monde_regi_par_une_en": "Rootia, un monde régi par une entité au  ",
+      "gui.saveroot.loregui_2.label_bien_avant_notre_ere_une_civili": "Effrayés par sa puissance, les Anciens ,",
+      "gui.saveroot.loregui_2.label_perca_le_voile_des_dimensions_et": "l\u0027enfermèrent au cœur d\u0027un sanctuaire,  ",
+      "gui.saveroot.loregui_2.label_pouvoir_incommensurable": "effacèrent toute trace de leur existence. ",
+      "gui.saveroot.loregui_2.label_rootia_un_monde_regi_par_une_en": "confièrent sa garde à un immortel protecteur, puis  ",
+      "gui.saveroot.loregui_2.label_24": "2/4",
+      "gui.saveroot.loregui_3.label_bien_avant_notre_ere_une_civili": "Des millénaires plus tard, les sceaux se fissurent. ",
+      "gui.saveroot.loregui_3.label_perca_le_voile_des_dimensions_et": "En explorant les vestiges du passé, vous découvrez  ",
+      "gui.saveroot.loregui_3.label_34": "3/4",
+      "gui.saveroot.loregui_3.label_rootia_un_monde_regi_par_une_en": "que l\u0027Histoire a été altérée.",
+      "gui.saveroot.loregui_4.label_root": "Root",
+      "gui.saveroot.loregui_4.label_bien_avant_notre_ere_une_civili": "     était-il une menace  absolue ",
+      "gui.saveroot.loregui_4.label_pour_atteindre_la_verite_il_vou": "Pour atteindre la vérité, il vous faudra triompher ",
+      "gui.saveroot.loregui_4.label_rootia_un_monde_regi_par_une_en": "que l\u0027Histoire a été altérée.",
+      "gui.saveroot.loregui_4.label_du_gardien_et_penetrer_dans_roo": "du Gardien et pénétrer dans Rootia.  ",
+      "gui.saveroot.loregui_4.label_perca_le_voile_des_dimensions_et": "En explorant les vestiges du passé, vous découvrez  ",
+      "gui.saveroot.loregui_4.label_34": "4/4",
+      "item.saferoot.cochon_rootium_spawn_egg": "Cochon Rootium Spawn Egg",
+      "entity.saferoot.cochon_rootium": "Cochon Rootium",
+      "entity.saferoot.vache_en_rootium": "Vache En Rootium",
+      "item.saferoot.vache_en_rootium_spawn_egg": "Vache En Rootium Spawn Egg",
+      "entity.saferoot.poule_rootium": "Poule Rootium",
+      "item.saferoot.poule_rootium_spawn_egg": "Poule Rootium Spawn Egg",
+      "block.saferoot.sapling_rootim": "Sapling Rootim"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/net/mcreator/saferoot/init/SaferootModWoodTypes.java",
+      "src/main/java/net/mcreator/saferoot/init/EntityAnimationFactory.java",
+      "src/main/java/net/mcreator/saferoot/client/AnimatedEntityRenderers.java",
+      "src/main/java/net/mcreator/saferoot/network/MenuStateUpdateMessage.java",
+      "src/main/java/net/mcreator/saferoot/init/SaferootModMenus.java",
+      "src/main/java/net/mcreator/saferoot/init/SaferootModScreens.java",
+      "src/main/java/net/mcreator/saferoot/init/SaferootModBlocks.java",
+      "src/main/java/net/mcreator/saferoot/init/SaferootModItems.java",
+      "src/main/java/net/mcreator/saferoot/init/SaferootModEntityRenderers.java",
+      "src/main/java/net/mcreator/saferoot/init/SaferootModEntities.java",
+      "src/main/java/net/mcreator/saferoot/SaferootMod.java",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/java/net/mcreator/saferoot/init/SaferootModModels.java",
+      "src/main/java/net/mcreator/saferoot/network/SaferootModVariables.java",
+      "src/main/java/net/mcreator/saferoot/init/SaferootModTabs.java",
+      "src/main/resources/pack.mcmeta"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "saferoot",
+    "modName": "SaveRoot",
+    "version": "0.7",
+    "author": "Tim3738,Microshiba",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "geckolib"
+    ],
+    "currentGenerator": "neoforge-1.21.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.saferoot"
+  },
+  "mcreatorVersion": 202600233518
+}
