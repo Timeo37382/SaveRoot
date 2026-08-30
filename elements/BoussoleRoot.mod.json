@@ -9,10 +9,10 @@
     "customProperties": {},
     "states": [],
     "animations": [],
-    "name": "Boussole Root",
+    "name": "Root Compass",
     "rarity": "RARE",
     "creativeTabs": [
-      "COMBAT"
+      "CUSTOM:SaveRootTAB"
     ],
     "stackSize": 1,
     "enchantability": 0,

@@ -8,11 +8,11 @@
   ],
   "key": {
     "a": {
-      "item": "saferoot:lingotderootium"
+      "item": "saferoot:rootium_ingot"
     }
   },
   "result": {
-    "id": "saferoot:armure_en_rootium_leggings",
+    "id": "saferoot:rootium_armor_leggings",
     "count": 1
   }
 }

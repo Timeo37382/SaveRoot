@@ -11,11 +11,11 @@
       "item": "minecraft:stick"
     },
     "b": {
-      "item": "saferoot:bois_en_rootium_planks"
+      "item": "saferoot:rootium_planks"
     }
   },
   "result": {
-    "id": "saferoot:bois_en_rootium_fence_gate",
+    "id": "saferoot:rootium_fence_gate",
     "count": 1
   }
 }

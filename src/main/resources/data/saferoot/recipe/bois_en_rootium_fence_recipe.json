@@ -8,14 +8,14 @@
   ],
   "key": {
     "a": {
-      "item": "saferoot:bois_en_rootium_planks"
+      "item": "saferoot:rootium_planks"
     },
     "b": {
       "item": "minecraft:stick"
     }
   },
   "result": {
-    "id": "saferoot:bois_en_rootium_fence",
+    "id": "saferoot:rootium_fence",
     "count": 3
   }
 }

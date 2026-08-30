@@ -51,7 +51,7 @@ public class SaplingRootimBlock extends Block implements BonemealableBlock {
 	@Override
 	protected boolean canSurvive(BlockState state, LevelReader world, BlockPos pos) {
 		BlockState soil = world.getBlockState(pos.below());
-		return soil.is(BlockTags.DIRT) || soil.is(SaferootModBlocks.HERBEENROOTIUM.get()) || soil.getBlock() instanceof FarmBlock;
+		return soil.is(BlockTags.DIRT) || soil.is(SaferootModBlocks.ROOTIUM_GRASS_BLOCK.get()) || soil.getBlock() instanceof FarmBlock;
 	}
 
 	@Override

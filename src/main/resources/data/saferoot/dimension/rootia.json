@@ -187,7 +187,7 @@
               "then_run": {
                 "type": "minecraft:block",
                 "result_state": {
-                  "Name": "saferoot:herbeenrootium"
+                  "Name": "saferoot:rootium_grass_block"
                 }
               }
             }

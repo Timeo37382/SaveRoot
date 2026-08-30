@@ -38,7 +38,7 @@
       }
     ],
     "customProperties": [],
-    "name": "Feuillage en Rootium",
+    "name": "Rootium Leaves",
     "specialInformation": {
       "fixedValue": []
     },
@@ -51,7 +51,7 @@
     "rarity": "RARE",
     "immuneToFire": false,
     "creativeTabs": [
-      "DECORATIONS"
+      "CUSTOM:SaveRootTAB"
     ],
     "destroyTool": "Not specified",
     "customDrop": "CUSTOM:SaplingRootim",

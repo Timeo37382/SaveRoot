@@ -31,7 +31,7 @@ public class HebreBlock extends FlowerBlock {
 
 	@Override
 	public boolean mayPlaceOn(BlockState groundState, BlockGetter worldIn, BlockPos pos) {
-		return groundState.is(SaferootModBlocks.HERBEENROOTIUM.get());
+		return groundState.is(SaferootModBlocks.ROOTIUM_GRASS_BLOCK.get());
 	}
 
 	@Override

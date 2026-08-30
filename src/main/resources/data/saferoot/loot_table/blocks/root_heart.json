@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "saferoot:blocks/root_heart",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "saferoot:root_heart"
+        }
+      ]
+    }
+  ]
+}

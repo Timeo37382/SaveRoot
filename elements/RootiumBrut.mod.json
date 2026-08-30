@@ -9,9 +9,11 @@
     "customProperties": {},
     "states": [],
     "animations": [],
-    "name": "Rootium Brut",
+    "name": "Raw Rootium",
     "rarity": "RARE",
-    "creativeTabs": [],
+    "creativeTabs": [
+      "CUSTOM:SaveRootTAB"
+    ],
     "stackSize": 64,
     "enchantability": 0,
     "useDuration": 0,

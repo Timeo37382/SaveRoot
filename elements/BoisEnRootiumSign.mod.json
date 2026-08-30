@@ -40,7 +40,7 @@
       }
     ],
     "customProperties": [],
-    "name": "Bois En Rootium Sign",
+    "name": "Rootium Sign",
     "specialInformation": {
       "fixedValue": []
     },
@@ -53,7 +53,7 @@
     "rarity": "COMMON",
     "immuneToFire": false,
     "creativeTabs": [
-      "TRANSPORTATION"
+      "CUSTOM:SaveRootTAB"
     ],
     "destroyTool": "axe",
     "customDrop": "",

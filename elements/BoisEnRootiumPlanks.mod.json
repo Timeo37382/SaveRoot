@@ -38,7 +38,7 @@
       }
     ],
     "customProperties": [],
-    "name": "Bois En Rootium Planks",
+    "name": "Rootium Planks",
     "specialInformation": {
       "fixedValue": []
     },
@@ -51,7 +51,7 @@
     "rarity": "COMMON",
     "immuneToFire": false,
     "creativeTabs": [
-      "BUILDING_BLOCKS"
+      "CUSTOM:SaveRootTAB"
     ],
     "destroyTool": "axe",
     "customDrop": "",

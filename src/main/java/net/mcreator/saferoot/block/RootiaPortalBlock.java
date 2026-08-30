@@ -28,7 +28,6 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.core.registries.BuiltInRegistries;
-import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 import net.minecraft.BlockUtil;
@@ -160,23 +159,9 @@ public class RootiaPortalBlock extends NetherPortalBlock {
 	@OnlyIn(Dist.CLIENT)
 	@Override
 	public void animateTick(BlockState state, Level world, BlockPos pos, RandomSource random) {
-		for (int i = 0; i < 4; i++) {
-			double px = pos.getX() + random.nextFloat();
-			double py = pos.getY() + random.nextFloat();
-			double pz = pos.getZ() + random.nextFloat();
-			double vx = (random.nextFloat() - 0.5) / 2.;
-			double vy = (random.nextFloat() - 0.5) / 2.;
-			double vz = (random.nextFloat() - 0.5) / 2.;
-			int j = random.nextInt(4) - 1;
-			if (world.getBlockState(pos.west()).getBlock() != this && world.getBlockState(pos.east()).getBlock() != this) {
-				px = pos.getX() + 0.5 + 0.25 * j;
-				vx = random.nextFloat() * 2 * j;
-			} else {
-				pz = pos.getZ() + 0.5 + 0.25 * j;
-				vz = random.nextFloat() * 2 * j;
-			}
-			world.addParticle(ParticleTypes.PORTAL, px, py, pz, vx, vy, vz);
-		}
+		// Aucune particule : cet override remplace entierement animateTick de
+		// NetherPortalBlock, donc les particules violettes du Nether ne sont pas
+		// emises non plus. Seul le son d'ambiance du portail est conserve.
 		if (random.nextInt(110) == 0)
 			world.playSound(null, pos.getX() + 0.5, pos.getY() + 0.5, pos.getZ() + 0.5, BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("block.portal.ambient")), SoundSource.BLOCKS, 0.5f, random.nextFloat() * 0.4f + 0.8f);
 	}

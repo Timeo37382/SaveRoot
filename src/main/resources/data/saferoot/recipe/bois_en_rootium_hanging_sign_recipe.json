@@ -12,11 +12,11 @@
       "item": "minecraft:chain"
     },
     "b": {
-      "item": "saferoot:stripped_bois_en_rootium_log"
+      "item": "saferoot:stripped_rootium_log"
     }
   },
   "result": {
-    "id": "saferoot:bois_en_rootium_hanging_sign",
+    "id": "saferoot:rootium_hanging_sign",
     "count": 6
   }
 }

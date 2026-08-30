@@ -9,13 +9,13 @@
     "customModelName": "Normal",
     "blockingModelName": "Normal blocking",
     "guiTexture": "",
-    "name": "Houe en Rootium",
+    "name": "Rootium Hoe",
     "rarity": "RARE",
     "specialInformation": {
       "fixedValue": []
     },
     "creativeTabs": [
-      "TOOLS"
+      "CUSTOM:SaveRootTAB"
     ],
     "efficiency": 8.5,
     "attackSpeed": 1.0,

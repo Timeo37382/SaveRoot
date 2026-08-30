@@ -20,9 +20,8 @@ public class CochonRootiumEntity extends Pig {
 	}
 
 	public static void init(RegisterSpawnPlacementsEvent event) {
-		event.register(SaferootModEntities.COCHON_ROOTIUM.get(), SpawnPlacementTypes.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES,
-				(entityType, world, reason, pos, random) -> world.getBlockState(pos.below()).isSolidRender(world, pos.below()) && world.getRawBrightness(pos, 0) > 8,
-				RegisterSpawnPlacementsEvent.Operation.REPLACE);
+		event.register(SaferootModEntities.ROOTIUM_PIG.get(), SpawnPlacementTypes.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES,
+				(entityType, world, reason, pos, random) -> RootiumAnimals.canSpawnHere(world, pos), RegisterSpawnPlacementsEvent.Operation.REPLACE);
 	}
 
 	public static AttributeSupplier.Builder createAttributes() {
@@ -31,6 +30,6 @@ public class CochonRootiumEntity extends Pig {
 
 	@Override
 	public CochonRootiumEntity getBreedOffspring(ServerLevel level, AgeableMob partner) {
-		return SaferootModEntities.COCHON_ROOTIUM.get().create(level);
+		return SaferootModEntities.ROOTIUM_PIG.get().create(level);
 	}
 }

@@ -76,7 +76,7 @@ public class WhitherRootEntity extends WitherBoss {
 	}
 
 	public static void init(RegisterSpawnPlacementsEvent event) {
-		event.register(SaferootModEntities.WHITHER_ROOT.get(), SpawnPlacementTypes.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES,
+		event.register(SaferootModEntities.WITHER_ROOT.get(), SpawnPlacementTypes.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES,
 				(entityType, world, reason, pos, random) -> false, RegisterSpawnPlacementsEvent.Operation.REPLACE);
 	}
 
@@ -224,7 +224,7 @@ public class WhitherRootEntity extends WitherBoss {
 		BlockPattern.BlockPatternMatch match = spawnPattern().find(level, pos);
 		if (match == null)
 			return;
-		WhitherRootEntity boss = SaferootModEntities.WHITHER_ROOT.get().create(level);
+		WhitherRootEntity boss = SaferootModEntities.WITHER_ROOT.get().create(level);
 		if (boss == null)
 			return;
 
@@ -258,7 +258,7 @@ public class WhitherRootEntity extends WitherBoss {
 	private static BlockPattern spawnPattern() {
 		if (cachedSpawnPattern == null) {
 			cachedSpawnPattern = BlockPatternBuilder.start().aisle("^^^", "###", "~#~")
-					.where('#', block -> block.getState().is(SaferootModBlocks.BLOC_DE_ROOTIUM.get()))
+					.where('#', block -> block.getState().is(SaferootModBlocks.ROOTIUM_BLOCK.get()))
 					.where('^', block -> isSummoningHead(block.getState()))
 					.where('~', block -> block.getState().isAir()).build();
 		}

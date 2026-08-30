@@ -40,12 +40,12 @@
         "subtract": false
       }
     ],
-    "name": "Sapling Rootim",
+    "name": "Rootium Sapling",
     "specialInformation": {
       "fixedValue": []
     },
     "creativeTabs": [
-      "DECORATIONS"
+      "CUSTOM:SaveRootTAB"
     ],
     "hardness": 0.0,
     "resistance": 0.0,

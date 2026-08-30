@@ -74,7 +74,7 @@ public class RootiaPortalFix {
 	}
 
 	private static void replaceLegacyFrame(ServerLevel level, BlockPos arrival) {
-		BlockState rootium = SaferootModBlocks.BLOC_DE_ROOTIUM.get().defaultBlockState();
+		BlockState rootium = SaferootModBlocks.ROOTIUM_BLOCK.get().defaultBlockState();
 		for (int dx = -FRAME_RADIUS; dx <= FRAME_RADIUS; dx++) {
 			for (int dy = -FRAME_RADIUS; dy <= FRAME_RADIUS + CLEAR_HEIGHT; dy++) {
 				for (int dz = -FRAME_RADIUS; dz <= FRAME_RADIUS; dz++) {
@@ -115,7 +115,7 @@ public class RootiaPortalFix {
 		BlockState state = level.getBlockState(pos);
 		if (state.isAir() || state.getBlock() instanceof RootiaPortalBlock)
 			return false;
-		if (state.is(SaferootModBlocks.BLOC_DE_ROOTIUM.get()))
+		if (state.is(SaferootModBlocks.ROOTIUM_BLOCK.get()))
 			return false;
 		return state.getDestroySpeed(level, pos) >= 0;
 	}

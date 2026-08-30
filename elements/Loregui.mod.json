@@ -25,7 +25,7 @@
         "data": {
           "name": "label_bien_avant_notre_ere_une_civili",
           "text": {
-            "fixedValue": "Bien avant notre ère, une civilisation disparue "
+            "fixedValue": "A very long time ago,"
           },
           "color": {
             "value": -12829636,
@@ -42,7 +42,7 @@
         "data": {
           "name": "label_perca_le_voile_des_dimensions_et",
           "text": {
-            "fixedValue": "perça le voile des dimensions et découvrit  : "
+            "fixedValue": "a Rootian named Root discovered a new dimension."
           },
           "color": {
             "value": -12829636,
@@ -59,7 +59,7 @@
         "data": {
           "name": "label_rootia_un_monde_regi_par_une_en",
           "text": {
-            "fixedValue": "Rootia, un monde régi par une entité au  "
+            "fixedValue": "He named it Rootia."
           },
           "color": {
             "value": -12829636,
@@ -76,7 +76,7 @@
         "data": {
           "name": "label_pouvoir_incommensurable",
           "text": {
-            "fixedValue": "pouvoir incommensurable :  "
+            "fixedValue": "He ventured inside."
           },
           "color": {
             "value": -12829636,

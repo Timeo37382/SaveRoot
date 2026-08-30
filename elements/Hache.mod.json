@@ -9,13 +9,13 @@
     "customModelName": "Normal",
     "blockingModelName": "Normal blocking",
     "guiTexture": "",
-    "name": "Hache en Rootium",
+    "name": "Rootium Axe",
     "rarity": "RARE",
     "specialInformation": {
       "fixedValue": []
     },
     "creativeTabs": [
-      "TOOLS"
+      "CUSTOM:SaveRootTAB"
     ],
     "efficiency": 9.0,
     "attackSpeed": 1.0,

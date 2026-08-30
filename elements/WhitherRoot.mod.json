@@ -29,16 +29,16 @@
     "mountedYOffset": 0.0,
     "hasSpawnEgg": true,
     "spawnEggBaseColor": {
-      "value": -1,
+      "value": -14410730,
       "falpha": 0.0
     },
     "spawnEggDotColor": {
-      "value": -1,
+      "value": -1936102,
       "falpha": 0.0
     },
     "spawnEggTexture": "",
     "creativeTabs": [
-      "MISC"
+      "CUSTOM:SaveRootTAB"
     ],
     "isBoss": false,
     "bossBarColor": "PINK",

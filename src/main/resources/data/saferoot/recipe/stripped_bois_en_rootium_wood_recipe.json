@@ -8,11 +8,11 @@
   ],
   "key": {
     "a": {
-      "item": "saferoot:stripped_bois_en_rootium_log"
+      "item": "saferoot:stripped_rootium_log"
     }
   },
   "result": {
-    "id": "saferoot:stripped_bois_en_rootium_wood",
+    "id": "saferoot:stripped_rootium_wood",
     "count": 3
   }
 }

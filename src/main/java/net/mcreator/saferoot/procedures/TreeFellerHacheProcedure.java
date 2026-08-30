@@ -41,7 +41,7 @@ public class TreeFellerHacheProcedure {
 		if (!(entity instanceof Player player)) return;
 		if (!(world instanceof ServerLevel serverLevel)) return;
 
-		if (!itemstack.is(SaferootModItems.HACHE.get())) return;
+		if (!itemstack.is(SaferootModItems.ROOTIUM_AXE.get())) return;
 		if (player.isCrouching()) return;
 		if (player.isCreative()) return;
 

@@ -11,13 +11,13 @@
     "enableBoots": true,
     "textureBoots": "itemchaussurre",
     "creativeTabs": [
-      "COMBAT"
+      "CUSTOM:SaveRootTAB"
     ],
     "armorTextureFile": "armure",
-    "helmetName": "Casque en Rootium",
-    "bodyName": "Plastron en Rootium",
-    "leggingsName": "Jambières en Rootium",
-    "bootsName": "Bottes en Rootium",
+    "helmetName": "Rootium Helmet",
+    "bodyName": "Rootium Chestplate",
+    "leggingsName": "Rootium Leggings",
+    "bootsName": "Rootium Boots",
     "helmetSpecialInformation": {
       "fixedValue": []
     },
@@ -101,7 +101,9 @@
     "toughness": 2.5,
     "knockbackResistance": 0.0,
     "equipSound": "",
-    "repairItems": [],
+    "repairItems": [
+      "CUSTOM:Lingotderootium"
+    ],
     "rarity": "RARE",
     "attributeModifiers": []
   }

@@ -9,13 +9,13 @@
     "customModelName": "Normal",
     "blockingModelName": "Normal blocking",
     "guiTexture": "",
-    "name": "Pioche en Rootium",
+    "name": "Rootium Pickaxe",
     "rarity": "RARE",
     "specialInformation": {
       "fixedValue": []
     },
     "creativeTabs": [
-      "TOOLS"
+      "CUSTOM:SaveRootTAB"
     ],
     "efficiency": 8.5,
     "attackSpeed": 1.2000000000000002,

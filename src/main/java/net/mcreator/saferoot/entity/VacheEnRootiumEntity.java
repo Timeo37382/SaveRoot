@@ -20,9 +20,8 @@ public class VacheEnRootiumEntity extends Cow {
 	}
 
 	public static void init(RegisterSpawnPlacementsEvent event) {
-		event.register(SaferootModEntities.VACHE_EN_ROOTIUM.get(), SpawnPlacementTypes.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES,
-				(entityType, world, reason, pos, random) -> world.getBlockState(pos.below()).isSolidRender(world, pos.below()) && world.getRawBrightness(pos, 0) > 8,
-				RegisterSpawnPlacementsEvent.Operation.REPLACE);
+		event.register(SaferootModEntities.ROOTIUM_COW.get(), SpawnPlacementTypes.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES,
+				(entityType, world, reason, pos, random) -> RootiumAnimals.canSpawnHere(world, pos), RegisterSpawnPlacementsEvent.Operation.REPLACE);
 	}
 
 	public static AttributeSupplier.Builder createAttributes() {
@@ -31,6 +30,6 @@ public class VacheEnRootiumEntity extends Cow {
 
 	@Override
 	public VacheEnRootiumEntity getBreedOffspring(ServerLevel level, AgeableMob partner) {
-		return SaferootModEntities.VACHE_EN_ROOTIUM.get().create(level);
+		return SaferootModEntities.ROOTIUM_COW.get().create(level);
 	}
 }

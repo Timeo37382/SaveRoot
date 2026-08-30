@@ -10,7 +10,7 @@
     "grass_color": 9470285,
     "foliage_color": 10387789
   },
-  "creature_spawn_probability": 0.9999999,
+  "creature_spawn_probability": 0.1,
   "spawners": {
     "monster": [],
     "creature": [],

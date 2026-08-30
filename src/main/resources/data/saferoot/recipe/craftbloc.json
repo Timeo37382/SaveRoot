@@ -8,11 +8,11 @@
   ],
   "key": {
     "a": {
-      "item": "saferoot:lingotderootium"
+      "item": "saferoot:rootium_ingot"
     }
   },
   "result": {
-    "id": "saferoot:bloc_de_rootium",
+    "id": "saferoot:rootium_block",
     "count": 1
   }
 }

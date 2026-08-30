@@ -41,7 +41,7 @@
       }
     ],
     "customProperties": [],
-    "name": "Bois En Rootium Hanging Sign",
+    "name": "Rootium Hanging Sign",
     "specialInformation": {
       "fixedValue": []
     },
@@ -54,7 +54,7 @@
     "rarity": "COMMON",
     "immuneToFire": false,
     "creativeTabs": [
-      "TRANSPORTATION"
+      "CUSTOM:SaveRootTAB"
     ],
     "destroyTool": "axe",
     "customDrop": "",

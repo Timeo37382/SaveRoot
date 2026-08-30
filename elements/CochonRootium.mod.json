@@ -2,7 +2,7 @@
   "_fv": 89,
   "_type": "livingentity",
   "definition": {
-    "mobName": "Cochon Rootium",
+    "mobName": "Rootium Pig",
     "mobLabel": "",
     "mobModelName": "Biped",
     "mobModelTexture": "cochonrootium.png",
@@ -38,7 +38,7 @@
     },
     "spawnEggTexture": "",
     "creativeTabs": [
-      "MISC"
+      "CUSTOM:SaveRootTAB"
     ],
     "isBoss": false,
     "bossBarColor": "PINK",

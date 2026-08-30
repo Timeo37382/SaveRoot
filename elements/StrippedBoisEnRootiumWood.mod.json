@@ -38,7 +38,7 @@
       }
     ],
     "customProperties": [],
-    "name": "Stripped Bois En Rootium Wood",
+    "name": "Stripped Rootium Wood",
     "specialInformation": {
       "fixedValue": []
     },
@@ -51,7 +51,7 @@
     "rarity": "COMMON",
     "immuneToFire": false,
     "creativeTabs": [
-      "BUILDING_BLOCKS"
+      "CUSTOM:SaveRootTAB"
     ],
     "destroyTool": "axe",
     "customDrop": "",

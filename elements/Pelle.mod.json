@@ -9,13 +9,13 @@
     "customModelName": "Normal",
     "blockingModelName": "Normal blocking",
     "guiTexture": "",
-    "name": "pelle en Rootium",
+    "name": "Rootium Shovel",
     "rarity": "COMMON",
     "specialInformation": {
       "fixedValue": []
     },
     "creativeTabs": [
-      "TOOLS"
+      "CUSTOM:SaveRootTAB"
     ],
     "efficiency": 8.0,
     "attackSpeed": 1.0,

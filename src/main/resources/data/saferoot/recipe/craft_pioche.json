@@ -8,14 +8,14 @@
   ],
   "key": {
     "a": {
-      "item": "saferoot:lingotderootium"
+      "item": "saferoot:rootium_ingot"
     },
     "b": {
       "item": "minecraft:stick"
     }
   },
   "result": {
-    "id": "saferoot:pioche",
+    "id": "saferoot:rootium_pickaxe",
     "count": 1
   }
 }

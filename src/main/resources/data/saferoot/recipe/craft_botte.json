@@ -7,11 +7,11 @@
   ],
   "key": {
     "a": {
-      "item": "saferoot:lingotderootium"
+      "item": "saferoot:rootium_ingot"
     }
   },
   "result": {
-    "id": "saferoot:armure_en_rootium_boots",
+    "id": "saferoot:rootium_armor_boots",
     "count": 1
   }
 }

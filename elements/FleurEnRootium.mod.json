@@ -40,12 +40,12 @@
         "subtract": false
       }
     ],
-    "name": "Fleur En Rootium",
+    "name": "Rootium Flower",
     "specialInformation": {
       "fixedValue": []
     },
     "creativeTabs": [
-      "DECORATIONS"
+      "CUSTOM:SaveRootTAB"
     ],
     "hardness": 0.0,
     "resistance": 0.0,

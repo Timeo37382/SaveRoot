@@ -51,7 +51,7 @@
     "rarity": "RARE",
     "immuneToFire": true,
     "creativeTabs": [
-      "DECORATIONS"
+      "CUSTOM:SaveRootTAB"
     ],
     "destroyTool": "pickaxe",
     "customDrop": "CUSTOM:RootiumBrut",
@@ -125,8 +125,7 @@
     "restrictionBiomes": [],
     "blocksToReplace": [
       "TAG:stone_ore_replaceables",
-      "Blocks.STONE#0",
-      "Blocks.DEEPSLATE"
+      "Blocks.STONE#0"
     ],
     "generationShape": "UNIFORM",
     "frequencyPerChunks": 10,

@@ -39,7 +39,7 @@
       }
     ],
     "customProperties": [],
-    "name": "Bois En Rootium Button",
+    "name": "Rootium Button",
     "specialInformation": {
       "fixedValue": []
     },
@@ -52,7 +52,7 @@
     "rarity": "COMMON",
     "immuneToFire": false,
     "creativeTabs": [
-      "BUILDING_BLOCKS"
+      "CUSTOM:SaveRootTAB"
     ],
     "destroyTool": "axe",
     "customDrop": "",

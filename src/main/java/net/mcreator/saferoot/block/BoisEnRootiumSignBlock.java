@@ -9,6 +9,6 @@ import net.mcreator.saferoot.init.SaferootModWoodTypes;
 
 public class BoisEnRootiumSignBlock extends StandingSignBlock {
 	public BoisEnRootiumSignBlock() {
-		super(SaferootModWoodTypes.BOIS_EN_ROOTIUM_SIGN_WOOD_TYPE, BlockBehaviour.Properties.of().sound(SoundType.WOOD).strength(1f).noCollission().ignitedByLava().instrument(NoteBlockInstrument.BASS).forceSolidOn());
+		super(SaferootModWoodTypes.ROOTIUM_SIGN_WOOD_TYPE, BlockBehaviour.Properties.of().sound(SoundType.WOOD).strength(1f).noCollission().ignitedByLava().instrument(NoteBlockInstrument.BASS).forceSolidOn());
 	}
 }

@@ -6,7 +6,7 @@
     "recipeRetstackSize": 4,
     "group": "planks",
     "unlockingItems": [
-      "TAG:saferoot:bois_en_rootium_logs"
+      "TAG:saferoot:rootium_logs"
     ],
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
@@ -18,7 +18,7 @@
       "",
       "",
       "",
-      "TAG:saferoot:bois_en_rootium_logs",
+      "TAG:saferoot:rootium_logs",
       "",
       "",
       "",

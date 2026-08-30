@@ -22,10 +22,10 @@ public class EffetArmureProcedure {
 		Player player = event.getEntity();
 		if (player.level().isClientSide()) return;
 
-		boolean helmet = player.getItemBySlot(EquipmentSlot.HEAD).is(SaferootModItems.ARMURE_EN_ROOTIUM_HELMET.get());
-		boolean chest = player.getItemBySlot(EquipmentSlot.CHEST).is(SaferootModItems.ARMURE_EN_ROOTIUM_CHESTPLATE.get());
-		boolean legs = player.getItemBySlot(EquipmentSlot.LEGS).is(SaferootModItems.ARMURE_EN_ROOTIUM_LEGGINGS.get());
-		boolean boots = player.getItemBySlot(EquipmentSlot.FEET).is(SaferootModItems.ARMURE_EN_ROOTIUM_BOOTS.get());
+		boolean helmet = player.getItemBySlot(EquipmentSlot.HEAD).is(SaferootModItems.ROOTIUM_ARMOR_HELMET.get());
+		boolean chest = player.getItemBySlot(EquipmentSlot.CHEST).is(SaferootModItems.ROOTIUM_ARMOR_CHESTPLATE.get());
+		boolean legs = player.getItemBySlot(EquipmentSlot.LEGS).is(SaferootModItems.ROOTIUM_ARMOR_LEGGINGS.get());
+		boolean boots = player.getItemBySlot(EquipmentSlot.FEET).is(SaferootModItems.ROOTIUM_ARMOR_BOOTS.get());
 
 		if (helmet) player.addEffect(new MobEffectInstance(MobEffects.NIGHT_VISION, 220, 0, false, false));
 		if (chest) player.addEffect(new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 40, 0, false, false));

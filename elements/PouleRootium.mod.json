@@ -2,7 +2,7 @@
   "_fv": 89,
   "_type": "livingentity",
   "definition": {
-    "mobName": "Poule Rootium",
+    "mobName": "Rootium Chicken",
     "mobLabel": "",
     "mobModelName": "Biped",
     "mobModelTexture": "poulerootium.png",
@@ -38,7 +38,7 @@
     },
     "spawnEggTexture": "",
     "creativeTabs": [
-      "MISC"
+      "CUSTOM:SaveRootTAB"
     ],
     "isBoss": false,
     "bossBarColor": "PINK",

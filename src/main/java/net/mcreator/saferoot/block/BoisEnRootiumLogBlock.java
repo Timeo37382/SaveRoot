@@ -61,7 +61,7 @@ public class BoisEnRootiumLogBlock extends Block {
 	@Override
 	public BlockState getToolModifiedState(BlockState blockstate, UseOnContext context, ItemAbility itemAbility, boolean simulate) {
 		if (ItemAbilities.AXE_STRIP == itemAbility && context.getItemInHand().canPerformAction(itemAbility)) {
-			return SaferootModBlocks.STRIPPED_BOIS_EN_ROOTIUM_LOG.get().withPropertiesOf(blockstate);
+			return SaferootModBlocks.STRIPPED_ROOTIUM_LOG.get().withPropertiesOf(blockstate);
 		}
 		return super.getToolModifiedState(blockstate, context, itemAbility, simulate);
 	}

@@ -4,9 +4,9 @@
   "experience": 1,
   "cookingtime": 300,
   "ingredient": {
-    "item": "saferoot:rootium_brut"
+    "item": "saferoot:raw_rootium"
   },
   "result": {
-    "id": "saferoot:lingotderootium"
+    "id": "saferoot:rootium_ingot"
   }
 }

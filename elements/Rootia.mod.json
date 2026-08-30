@@ -53,7 +53,7 @@
     "portalLuminance": 11,
     "portalSound": "block.portal.ambient",
     "enableIgniter": false,
-    "igniterName": "Rootia Portal Igniter",
+    "igniterName": "Allume-portail de Rootia",
     "igniterRarity": "COMMON",
     "specialInformation": {
       "fixedValue": []

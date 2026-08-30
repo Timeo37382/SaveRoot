@@ -9,6 +9,6 @@ import net.mcreator.saferoot.init.SaferootModWoodTypes;
 
 public class BoisEnRootiumHangingSignBlock extends CeilingHangingSignBlock {
 	public BoisEnRootiumHangingSignBlock() {
-		super(SaferootModWoodTypes.BOIS_EN_ROOTIUM_HANGING_SIGN_WOOD_TYPE, BlockBehaviour.Properties.of().sound(SoundType.HANGING_SIGN).strength(1f).noCollission().ignitedByLava().instrument(NoteBlockInstrument.BASS).forceSolidOn());
+		super(SaferootModWoodTypes.ROOTIUM_HANGING_SIGN_WOOD_TYPE, BlockBehaviour.Properties.of().sound(SoundType.HANGING_SIGN).strength(1f).noCollission().ignitedByLava().instrument(NoteBlockInstrument.BASS).forceSolidOn());
 	}
 }

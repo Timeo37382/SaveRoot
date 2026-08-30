@@ -8,11 +8,11 @@
   ],
   "key": {
     "a": {
-      "item": "saferoot:bois_en_rootium_log"
+      "item": "saferoot:rootium_log"
     }
   },
   "result": {
-    "id": "saferoot:bois_en_rootium_wood",
+    "id": "saferoot:rootium_wood",
     "count": 3
   }
 }

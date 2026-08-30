@@ -25,7 +25,7 @@
         "data": {
           "name": "label_bien_avant_notre_ere_une_civili",
           "text": {
-            "fixedValue": "     était-il une menace  absolue "
+            "fixedValue": "Will you manage to free Root"
           },
           "color": {
             "value": -12829636,
@@ -42,7 +42,7 @@
         "data": {
           "name": "label_perca_le_voile_des_dimensions_et",
           "text": {
-            "fixedValue": "En explorant les vestiges du passé, vous découvrez  "
+            "fixedValue": "and bring him back to life?"
           },
           "color": {
             "value": -12829636,
@@ -59,7 +59,7 @@
         "data": {
           "name": "label_rootia_un_monde_regi_par_une_en",
           "text": {
-            "fixedValue": "que l'Histoire a été altérée."
+            "fixedValue": "It's up to you!"
           },
           "color": {
             "value": -12829636,
@@ -91,43 +91,9 @@
       {
         "type": "label",
         "data": {
-          "name": "label_root",
-          "text": {
-            "fixedValue": "Root"
-          },
-          "color": {
-            "value": -10092544,
-            "falpha": 0.0
-          },
-          "hasShadow": true,
-          "x": 52,
-          "y": 104,
-          "locked": false
-        }
-      },
-      {
-        "type": "label",
-        "data": {
-          "name": "label_pour_atteindre_la_verite_il_vou",
-          "text": {
-            "fixedValue": "Pour atteindre la vérité, il vous faudra triompher "
-          },
-          "color": {
-            "value": -12829636,
-            "falpha": 0.0
-          },
-          "hasShadow": false,
-          "x": 52,
-          "y": 146,
-          "locked": false
-        }
-      },
-      {
-        "type": "label",
-        "data": {
           "name": "label_du_gardien_et_penetrer_dans_roo",
           "text": {
-            "fixedValue": "du Gardien et pénétrer dans Rootia.  "
+            "fixedValue": "- Tim3738, Microshiba, Noah"
           },
           "color": {
             "value": -12829636,

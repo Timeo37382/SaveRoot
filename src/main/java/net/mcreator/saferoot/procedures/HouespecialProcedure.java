@@ -26,7 +26,7 @@ public class HouespecialProcedure {
 		Player player = event.getEntity();
 		ItemStack itemstack = event.getItemStack();
 
-		if (!itemstack.is(SaferootModItems.HOUE.get())) return;
+		if (!itemstack.is(SaferootModItems.ROOTIUM_HOE.get())) return;
 
 		Level world = event.getLevel();
 		BlockPos center = event.getPos();

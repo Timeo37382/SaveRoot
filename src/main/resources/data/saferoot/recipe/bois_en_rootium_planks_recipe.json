@@ -4,11 +4,11 @@
   "category": "building",
   "ingredients": [
     {
-      "tag": "saferoot:bois_en_rootium_logs"
+      "tag": "saferoot:rootium_logs"
     }
   ],
   "result": {
-    "id": "saferoot:bois_en_rootium_planks",
+    "id": "saferoot:rootium_planks",
     "count": 4
   }
 }

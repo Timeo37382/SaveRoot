@@ -16,7 +16,7 @@
       {
         "target": {
           "predicate_type": "minecraft:block_match",
-          "block": "saferoot:herbeenrootium"
+          "block": "saferoot:rootium_grass_block"
         },
         "state": {
           "Name": "minecraft:terracotta"

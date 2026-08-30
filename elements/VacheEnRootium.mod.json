@@ -2,7 +2,7 @@
   "_fv": 89,
   "_type": "livingentity",
   "definition": {
-    "mobName": "Vache En Rootium",
+    "mobName": "Rootium Cow",
     "mobLabel": "",
     "mobModelName": "Cow",
     "mobModelTexture": "vacherootium.png",
@@ -38,7 +38,7 @@
     },
     "spawnEggTexture": "",
     "creativeTabs": [
-      "MISC"
+      "CUSTOM:SaveRootTAB"
     ],
     "isBoss": false,
     "bossBarColor": "PINK",

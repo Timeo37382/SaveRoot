@@ -39,7 +39,7 @@
       }
     ],
     "customProperties": [],
-    "name": "Bois En Rootium Fence Gate",
+    "name": "Rootium Fence Gate",
     "specialInformation": {
       "fixedValue": []
     },
@@ -47,12 +47,12 @@
     "resistance": 3.0,
     "hasGravity": false,
     "isWaterloggable": false,
-    "hasBlockItem": true,
+    "hasBlockItem": false,
     "maxStackSize": 64,
     "rarity": "COMMON",
     "immuneToFire": false,
     "creativeTabs": [
-      "BUILDING_BLOCKS"
+      "CUSTOM:SaveRootTAB"
     ],
     "destroyTool": "axe",
     "customDrop": "",

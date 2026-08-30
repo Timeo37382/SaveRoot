@@ -3,14 +3,14 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "saferoot:lingotderootium"
+      "item": "saferoot:rootium_ingot"
     },
     {
       "item": "minecraft:compass"
     }
   ],
   "result": {
-    "id": "saferoot:boussole_root",
+    "id": "saferoot:root_compass",
     "count": 1
   }
 }

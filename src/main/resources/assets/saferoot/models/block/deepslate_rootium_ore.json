@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "saferoot:block/deepslate_diamond_ore",
+    "particle": "saferoot:block/deepslate_diamond_ore"
+  },
+  "render_type": "solid"
+}

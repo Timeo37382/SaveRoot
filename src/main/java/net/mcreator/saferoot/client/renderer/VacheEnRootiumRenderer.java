@@ -12,7 +12,7 @@ public class VacheEnRootiumRenderer extends MobRenderer<VacheEnRootiumEntity, Co
 	private final ResourceLocation entityTexture = ResourceLocation.parse("saferoot:textures/entities/vacherootium.png");
 
 	public VacheEnRootiumRenderer(EntityRendererProvider.Context context) {
-		super(context, new CowModel<VacheEnRootiumEntity>(context.bakeLayer(ModelLayers.COW)), 0.7f);
+		super(context, new CowModel<VacheEnRootiumEntity>(context.bakeLayer(ModelLayers.COW)), 0.5f);
 	}
 
 	@Override

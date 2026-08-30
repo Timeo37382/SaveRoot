@@ -1,9 +1,0 @@
-{
-  "replace": false,
-  "values": [
-    "saferoot:bois_en_rootium_wood",
-    "saferoot:stripped_bois_en_rootium_wood",
-    "saferoot:bois_en_rootium_log",
-    "saferoot:stripped_bois_en_rootium_log"
-  ]
-}

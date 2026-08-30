@@ -16,6 +16,8 @@ import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.Holder;
 import net.minecraft.Util;
 
+import net.mcreator.saferoot.init.SaferootModItems;
+
 import java.util.List;
 import java.util.EnumMap;
 
@@ -32,8 +34,8 @@ public abstract class ArmureEnRootiumItem extends ArmorItem {
 				map.put(ArmorItem.Type.CHESTPLATE, 8);
 				map.put(ArmorItem.Type.HELMET, 3);
 				map.put(ArmorItem.Type.BODY, 8);
-			}), 13, BuiltInRegistries.SOUND_EVENT.wrapAsHolder(SoundEvents.EMPTY), () -> Ingredient.of(), List.of(new ArmorMaterial.Layer(ResourceLocation.parse("saferoot:armure"))), 2.5f, 0f);
-			registerHelper.register(ResourceLocation.parse("saferoot:armure_en_rootium"), armorMaterial);
+			}), 13, BuiltInRegistries.SOUND_EVENT.wrapAsHolder(SoundEvents.EMPTY), () -> Ingredient.of(new ItemStack(SaferootModItems.ROOTIUM_INGOT.get())), List.of(new ArmorMaterial.Layer(ResourceLocation.parse("saferoot:armure"))), 2.5f, 0f);
+			registerHelper.register(ResourceLocation.parse("saferoot:rootium_armor"), armorMaterial);
 			ARMOR_MATERIAL = BuiltInRegistries.ARMOR_MATERIAL.wrapAsHolder(armorMaterial);
 		});
 	}
@@ -57,7 +59,7 @@ public abstract class ArmureEnRootiumItem extends ArmorItem {
 		@OnlyIn(Dist.CLIENT)
 		public void appendHoverText(ItemStack itemstack, Item.TooltipContext context, List<Component> list, TooltipFlag flag) {
 			super.appendHoverText(itemstack, context, list, flag);
-			list.add(Component.translatable("item.saferoot.armure_en_rootium_chestplate.description_0"));
+			list.add(Component.translatable("item.saferoot.rootium_armor_chestplate.description_0"));
 		}
 	}
 
@@ -70,7 +72,7 @@ public abstract class ArmureEnRootiumItem extends ArmorItem {
 		@OnlyIn(Dist.CLIENT)
 		public void appendHoverText(ItemStack itemstack, Item.TooltipContext context, List<Component> list, TooltipFlag flag) {
 			super.appendHoverText(itemstack, context, list, flag);
-			list.add(Component.translatable("item.saferoot.armure_en_rootium_leggings.description_0"));
+			list.add(Component.translatable("item.saferoot.rootium_armor_leggings.description_0"));
 		}
 	}
 
@@ -83,7 +85,7 @@ public abstract class ArmureEnRootiumItem extends ArmorItem {
 		@OnlyIn(Dist.CLIENT)
 		public void appendHoverText(ItemStack itemstack, Item.TooltipContext context, List<Component> list, TooltipFlag flag) {
 			super.appendHoverText(itemstack, context, list, flag);
-			list.add(Component.translatable("item.saferoot.armure_en_rootium_boots.description_0"));
+			list.add(Component.translatable("item.saferoot.rootium_armor_boots.description_0"));
 		}
 	}
 }

@@ -29,7 +29,7 @@ public class PeespecialeeProcedure {
 	public static void onEntityDeath(LivingDeathEvent event) {
 		if (!(event.getSource().getEntity() instanceof Player player)) return;
 		ItemStack itemstack = player.getMainHandItem();
-		if (!itemstack.is(SaferootModItems.EPEE.get())) return;
+		if (!itemstack.is(SaferootModItems.ROOTIUM_SWORD.get())) return;
 
 		LivingEntity target = event.getEntity();
 		Level world = target.level();

@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "saferoot:rootium"
+    "saferoot:rootium_block",
+    "saferoot:rootium_dirt",
+    "saferoot:rootium_ore",
+    "saferoot:deepslate_rootium_ore"
   ]
 }

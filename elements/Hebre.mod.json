@@ -40,12 +40,12 @@
         "subtract": false
       }
     ],
-    "name": "Herbe en rootium",
+    "name": "Tall Rootium Grass",
     "specialInformation": {
       "fixedValue": []
     },
     "creativeTabs": [
-      "DECORATIONS"
+      "CUSTOM:SaveRootTAB"
     ],
     "hardness": 0.0,
     "resistance": 0.0,

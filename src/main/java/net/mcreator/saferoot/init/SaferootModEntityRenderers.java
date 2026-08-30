@@ -17,9 +17,9 @@ import net.mcreator.saferoot.client.renderer.CochonRootiumRenderer;
 public class SaferootModEntityRenderers {
 	@SubscribeEvent
 	public static void registerEntityRenderers(EntityRenderersEvent.RegisterRenderers event) {
-		event.registerEntityRenderer(SaferootModEntities.WHITHER_ROOT.get(), WhitherRootRenderer::new);
-		event.registerEntityRenderer(SaferootModEntities.VACHE_EN_ROOTIUM.get(), VacheEnRootiumRenderer::new);
-		event.registerEntityRenderer(SaferootModEntities.COCHON_ROOTIUM.get(), CochonRootiumRenderer::new);
-		event.registerEntityRenderer(SaferootModEntities.POULE_ROOTIUM.get(), PouleRootiumRenderer::new);
+		event.registerEntityRenderer(SaferootModEntities.WITHER_ROOT.get(), WhitherRootRenderer::new);
+		event.registerEntityRenderer(SaferootModEntities.ROOTIUM_COW.get(), VacheEnRootiumRenderer::new);
+		event.registerEntityRenderer(SaferootModEntities.ROOTIUM_PIG.get(), CochonRootiumRenderer::new);
+		event.registerEntityRenderer(SaferootModEntities.ROOTIUM_CHICKEN.get(), PouleRootiumRenderer::new);
 	}
 }

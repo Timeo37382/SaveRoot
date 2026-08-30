@@ -25,7 +25,7 @@
         "data": {
           "name": "label_bien_avant_notre_ere_une_civili",
           "text": {
-            "fixedValue": "Effrayés par sa puissance, les Anciens ,"
+            "fixedValue": "He set up a base camp,"
           },
           "color": {
             "value": -12829636,
@@ -33,7 +33,7 @@
           },
           "hasShadow": false,
           "x": 52,
-          "y": 105,
+          "y": 115,
           "locked": false
         }
       },
@@ -42,49 +42,15 @@
         "data": {
           "name": "label_perca_le_voile_des_dimensions_et",
           "text": {
-            "fixedValue": "l'enfermèrent au cœur d'un sanctuaire,  "
+            "fixedValue": "and ran many experiments."
           },
           "color": {
             "value": -12829636,
             "falpha": 0.0
           },
           "hasShadow": false,
-          "x": 52,
-          "y": 118,
-          "locked": false
-        }
-      },
-      {
-        "type": "label",
-        "data": {
-          "name": "label_rootia_un_monde_regi_par_une_en",
-          "text": {
-            "fixedValue": "confièrent sa garde à un immortel protecteur, puis  "
-          },
-          "color": {
-            "value": -12829636,
-            "falpha": 0.0
-          },
-          "hasShadow": false,
-          "x": 52,
-          "y": 131,
-          "locked": false
-        }
-      },
-      {
-        "type": "label",
-        "data": {
-          "name": "label_pouvoir_incommensurable",
-          "text": {
-            "fixedValue": "effacèrent toute trace de leur existence. "
-          },
-          "color": {
-            "value": -12829636,
-            "falpha": 0.0
-          },
-          "hasShadow": false,
-          "x": 52,
-          "y": 144,
+          "x": 51,
+          "y": 130,
           "locked": false
         }
       },

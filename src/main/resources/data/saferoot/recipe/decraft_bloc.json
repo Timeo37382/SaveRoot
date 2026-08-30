@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "saferoot:rootium_block"
+    }
+  ],
+  "result": {
+    "id": "saferoot:rootium_ingot",
+    "count": 9
+  }
+}

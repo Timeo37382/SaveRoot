@@ -26,7 +26,7 @@ public class Loregui2Menu extends AbstractContainerMenu implements SaferootModMe
 	public final Map<String, Object> menuState = new HashMap<>() {
 		@Override
 		public Object put(String key, Object value) {
-			if (!this.containsKey(key) && this.size() >= 7)
+			if (!this.containsKey(key) && this.size() >= 5)
 				return null;
 			return super.put(key, value);
 		}

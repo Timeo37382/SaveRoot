@@ -14,6 +14,7 @@ import net.minecraft.world.MenuProvider;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.FriendlyByteBuf;
+import net.minecraft.nbt.CompoundTag;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.saferoot.world.inventory.LoreguiMenu;
@@ -24,9 +25,36 @@ import io.netty.buffer.Unpooled;
 
 @EventBusSubscriber
 public class OuvertureloreProcedure {
+	/** Marqueur persistant : le prologue n'est joue qu'a la toute premiere connexion. */
+	private static final String SEEN_TAG = "saferoot_prologue_seen";
+
 	@SubscribeEvent
 	public static void onPlayerLoggedIn(PlayerEvent.PlayerLoggedInEvent event) {
-		execute(event, event.getEntity().level(), event.getEntity().getX(), event.getEntity().getY(), event.getEntity().getZ(), event.getEntity());
+		if (!(event.getEntity() instanceof ServerPlayer player))
+			return;
+		if (hasSeenPrologue(player))
+			return;
+		markPrologueSeen(player);
+		execute(event, player.level(), player.getX(), player.getY(), player.getZ(), player);
+	}
+
+	public static boolean hasSeenPrologue(Player player) {
+		return player.getPersistentData().getCompound(Player.PERSISTED_NBT_TAG).getBoolean(SEEN_TAG);
+	}
+
+	public static void markPrologueSeen(Player player) {
+		CompoundTag root = player.getPersistentData();
+		CompoundTag persisted = root.getCompound(Player.PERSISTED_NBT_TAG);
+		persisted.putBoolean(SEEN_TAG, true);
+		root.put(Player.PERSISTED_NBT_TAG, persisted);
+	}
+
+	/** Remet le marqueur a zero : la prochaine connexion rejouera le prologue. */
+	public static void resetPrologue(Player player) {
+		CompoundTag root = player.getPersistentData();
+		CompoundTag persisted = root.getCompound(Player.PERSISTED_NBT_TAG);
+		persisted.remove(SEEN_TAG);
+		root.put(Player.PERSISTED_NBT_TAG, persisted);
 	}
 
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {

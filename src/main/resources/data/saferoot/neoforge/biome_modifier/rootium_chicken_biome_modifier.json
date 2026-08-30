@@ -1,0 +1,14 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "saferoot:plaine_rootium",
+    "saferoot:semi_foret_rootium",
+    "saferoot:foret_rootium"
+  ],
+  "spawners": {
+    "type": "saferoot:rootium_chicken",
+    "weight": 10,
+    "minCount": 4,
+    "maxCount": 4
+  }
+}

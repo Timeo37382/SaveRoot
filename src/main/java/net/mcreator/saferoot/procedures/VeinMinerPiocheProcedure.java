@@ -42,12 +42,13 @@ public class VeinMinerPiocheProcedure {
 		if (!(entity instanceof Player player)) return;
 		if (!(world instanceof ServerLevel serverLevel)) return;
 
-		if (!itemstack.is(SaferootModItems.PIOCHE.get())) return;
+		if (!itemstack.is(SaferootModItems.ROOTIUM_PICKAXE.get())) return;
 		if (player.isCrouching()) return;
 		if (player.isCreative()) return;
 
 		String blockName = blockstate.getBlock().getDescriptionId();
-		boolean isOre = blockName.contains("ore") || blockstate.is(SaferootModBlocks.ROOTIUM.get());
+		boolean isOre = blockName.contains("ore") || blockstate.is(SaferootModBlocks.ROOTIUM_ORE.get())
+				|| blockstate.is(SaferootModBlocks.DEEPSLATE_ROOTIUM_ORE.get());
 
 		if (!isOre) return;
 

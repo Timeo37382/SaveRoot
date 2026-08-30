@@ -42,7 +42,7 @@ public class HacheItem extends AxeItem {
 
 		@Override
 		public Ingredient getRepairIngredient() {
-			return Ingredient.of(new ItemStack(SaferootModItems.LINGOTDEROOTIUM.get()));
+			return Ingredient.of(new ItemStack(SaferootModItems.ROOTIUM_INGOT.get()));
 		}
 	};
 

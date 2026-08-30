@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "saferoot:rootium_wood",
+    "saferoot:stripped_rootium_wood",
+    "saferoot:rootium_log",
+    "saferoot:stripped_rootium_log"
+  ]
+}

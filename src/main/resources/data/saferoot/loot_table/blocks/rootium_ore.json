@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "saferoot:blocks/rootium_ore",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "saferoot:raw_rootium"
+        }
+      ]
+    }
+  ]
+}

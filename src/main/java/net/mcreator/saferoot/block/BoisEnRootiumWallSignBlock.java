@@ -10,7 +10,7 @@ import net.mcreator.saferoot.init.SaferootModBlocks;
 
 public class BoisEnRootiumWallSignBlock extends WallSignBlock {
 	public BoisEnRootiumWallSignBlock() {
-		super(SaferootModWoodTypes.BOIS_EN_ROOTIUM_SIGN_WOOD_TYPE,
-				BlockBehaviour.Properties.of().sound(SoundType.WOOD).strength(1f).noCollission().ignitedByLava().instrument(NoteBlockInstrument.BASS).forceSolidOn().dropsLike(SaferootModBlocks.BOIS_EN_ROOTIUM_SIGN.get()));
+		super(SaferootModWoodTypes.ROOTIUM_SIGN_WOOD_TYPE,
+				BlockBehaviour.Properties.of().sound(SoundType.WOOD).strength(1f).noCollission().ignitedByLava().instrument(NoteBlockInstrument.BASS).forceSolidOn().dropsLike(SaferootModBlocks.ROOTIUM_SIGN.get()));
 	}
 }

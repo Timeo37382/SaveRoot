@@ -38,11 +38,11 @@
       }
     ],
     "customProperties": [],
-    "name": "Bloc De Rootium",
+    "name": "Block of Rootium",
     "specialInformation": {
       "fixedValue": []
     },
-    "hardness": 1.0,
+    "hardness": 15.0,
     "resistance": 25.0,
     "hasGravity": false,
     "isWaterloggable": false,
@@ -50,7 +50,9 @@
     "maxStackSize": 64,
     "rarity": "RARE",
     "immuneToFire": false,
-    "creativeTabs": [],
+    "creativeTabs": [
+      "CUSTOM:SaveRootTAB"
+    ],
     "destroyTool": "pickaxe",
     "customDrop": "",
     "dropAmount": 1,
@@ -96,7 +98,7 @@
       "fixedValue": 4.0
     },
     "unbreakable": false,
-    "vanillaToolTier": "DIAMOND",
+    "vanillaToolTier": "IRON",
     "isBonemealable": false,
     "sensitiveToVibration": false,
     "vibrationalEvents": [],

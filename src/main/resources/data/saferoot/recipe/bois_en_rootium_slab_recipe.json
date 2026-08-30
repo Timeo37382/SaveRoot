@@ -7,11 +7,11 @@
   ],
   "key": {
     "a": {
-      "item": "saferoot:bois_en_rootium_planks"
+      "item": "saferoot:rootium_planks"
     }
   },
   "result": {
-    "id": "saferoot:bois_en_rootium_slab",
+    "id": "saferoot:rootium_slab",
     "count": 6
   }
 }

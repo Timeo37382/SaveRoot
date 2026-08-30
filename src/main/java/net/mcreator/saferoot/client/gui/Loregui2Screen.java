@@ -71,10 +71,8 @@ public class Loregui2Screen extends AbstractContainerScreen<Loregui2Menu> implem
 
 	@Override
 	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
-		guiGraphics.drawString(this.font, Component.translatable("gui.saferoot.loregui_2.label_bien_avant_notre_ere_une_civili"), 7, 44, -12829636, false);
-		guiGraphics.drawString(this.font, Component.translatable("gui.saferoot.loregui_2.label_perca_le_voile_des_dimensions_et"), 7, 57, -12829636, false);
-		guiGraphics.drawString(this.font, Component.translatable("gui.saferoot.loregui_2.label_rootia_un_monde_regi_par_une_en"), 7, 70, -12829636, false);
-		guiGraphics.drawString(this.font, Component.translatable("gui.saferoot.loregui_2.label_pouvoir_incommensurable"), 7, 83, -12829636, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.saferoot.loregui_2.label_bien_avant_notre_ere_une_civili"), 7, 54, -12829636, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.saferoot.loregui_2.label_perca_le_voile_des_dimensions_et"), 6, 69, -12829636, false);
 		guiGraphics.drawString(this.font, Component.translatable("gui.saferoot.loregui_2.label_24"), 316, 5, -12829636, false);
 	}
 

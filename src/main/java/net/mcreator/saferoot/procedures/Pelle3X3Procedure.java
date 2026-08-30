@@ -42,7 +42,7 @@ public class Pelle3X3Procedure {
 		if (!(entity instanceof Player player)) return;
 		if (!(world instanceof ServerLevel serverLevel)) return;
 
-		if (!itemstack.is(SaferootModItems.PELLE.get())) return;
+		if (!itemstack.is(SaferootModItems.ROOTIUM_SHOVEL.get())) return;
 		if (player.isCrouching()) return;
 		if (player.isCreative()) return;
 

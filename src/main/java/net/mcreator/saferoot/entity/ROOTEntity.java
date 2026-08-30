@@ -12,6 +12,7 @@ import software.bernie.geckolib.animatable.GeoEntity;
 import net.neoforged.neoforge.event.entity.RegisterSpawnPlacementsEvent;
 
 import net.minecraft.world.level.levelgen.Heightmap;
+import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.Items;
@@ -28,10 +29,13 @@ import net.minecraft.world.entity.ai.goal.target.NearestAttackableTargetGoal;
 import net.minecraft.world.entity.ai.goal.target.HurtByTargetGoal;
 import net.minecraft.world.entity.ai.goal.WaterAvoidingRandomStrollGoal;
 import net.minecraft.world.entity.ai.goal.TemptGoal;
+import net.minecraft.world.entity.ai.goal.PanicGoal;
 import net.minecraft.world.entity.ai.goal.MeleeAttackGoal;
 import net.minecraft.world.entity.ai.goal.LookAtPlayerGoal;
 import net.minecraft.world.entity.ai.goal.LeapAtTargetGoal;
+import net.minecraft.world.entity.ai.goal.FollowParentGoal;
 import net.minecraft.world.entity.ai.goal.FloatGoal;
+import net.minecraft.world.entity.ai.goal.BreedGoal;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
 import net.minecraft.world.entity.SpawnPlacementTypes;
@@ -41,6 +45,7 @@ import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.ExperienceOrb;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.EntityDimensions;
+import net.minecraft.world.entity.AgeableMob;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.SimpleMenuProvider;
 import net.minecraft.world.SimpleContainer;
@@ -63,6 +68,7 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.particles.ParticleTypes;
+import net.minecraft.core.BlockPos;
 
 import net.mcreator.saferoot.world.inventory.RootGolemGuiMenu;
 import net.mcreator.saferoot.init.SaferootModItems;
@@ -102,7 +108,7 @@ public class ROOTEntity extends Chicken implements GeoEntity {
 	public static final List<Ore> ORES = List.of(new Ore(Items.COAL, 1.0F, OVERWORLD), new Ore(Items.RAW_COPPER, 1.3F, OVERWORLD), new Ore(Items.RAW_IRON, 1.5F, OVERWORLD),
 			new Ore(Items.REDSTONE, 2.0F, OVERWORLD), new Ore(Items.LAPIS_LAZULI, 2.2F, OVERWORLD), new Ore(Items.RAW_GOLD, 2.5F, OVERWORLD, NETHER),
 			new Ore(Items.DIAMOND, 5.0F, OVERWORLD), new Ore(Items.EMERALD, 6.0F, OVERWORLD), new Ore(Items.QUARTZ, 2.0F, NETHER),
-			new Ore(Items.ANCIENT_DEBRIS, 12.0F, NETHER), new Ore(SaferootModItems.ROOTIUM_BRUT.get(), 4.0F, ROOTIA, OVERWORLD));
+			new Ore(Items.ANCIENT_DEBRIS, 12.0F, NETHER), new Ore(SaferootModItems.RAW_ROOTIUM.get(), 4.0F, ROOTIA, OVERWORLD));
 
 	private static final float MAX_RARITY = 12.0F;
 	private static final float MAX_RISK = 0.05F;
@@ -140,6 +146,8 @@ public class ROOTEntity extends Chicken implements GeoEntity {
 	private static final double WALK_DISTANCE = 10.0, WALK_SPEED = 0.18;
 	private static final int XP_PER_KILL = 5;
 	private static final int DURABILITY_PER_UNIT = 6;
+	private static final int EGG_TIMER_HOLD = 1000;
+	private static final double GLIDE_CANCEL = 1.0 / 0.6;
 
 	private final SimpleContainer tools = new SimpleContainer(MODE_COUNT);
 	private final SimpleContainer storage = new SimpleContainer(STORAGE_SLOTS);
@@ -440,9 +448,9 @@ public class ROOTEntity extends Chicken implements GeoEntity {
 
 	public static boolean isToolForSlot(int index, ItemStack stack) {
 		return switch (index) {
-			case MODE_MINER -> stack.is(SaferootModItems.PIOCHE.get());
-			case MODE_ATTAQUER -> stack.is(SaferootModItems.EPEE.get());
-			case MODE_BUCHER -> stack.is(SaferootModItems.HACHE.get());
+			case MODE_MINER -> stack.is(SaferootModItems.ROOTIUM_PICKAXE.get());
+			case MODE_ATTAQUER -> stack.is(SaferootModItems.ROOTIUM_SWORD.get());
+			case MODE_BUCHER -> stack.is(SaferootModItems.ROOTIUM_AXE.get());
 			default -> false;
 		};
 	}
@@ -499,12 +507,13 @@ public class ROOTEntity extends Chicken implements GeoEntity {
 	@Override
 	protected void registerGoals() {
 		super.registerGoals();
+		this.goalSelector.removeAllGoals(goal -> goal instanceof BreedGoal || goal instanceof FollowParentGoal || goal instanceof TemptGoal || goal instanceof PanicGoal);
 
 		this.goalSelector.addGoal(1, new FloatGoal(this));
 		this.goalSelector.addGoal(2, new LeapAtTargetGoal(this, 0.4F));
 		this.goalSelector.addGoal(3, new MeleeAttackGoal(this, 1.2, true));
 		this.goalSelector.addGoal(4, new FollowPlayerGoal(this, 1.1, 3.0F, 12.0F));
-		this.goalSelector.addGoal(5, new TemptGoal(this, 1.2, Ingredient.of(SaferootModItems.EPEE.get()), false));
+		this.goalSelector.addGoal(5, new TemptGoal(this, 1.2, Ingredient.of(SaferootModItems.ROOTIUM_SWORD.get()), false));
 		this.goalSelector.addGoal(6, new WaterAvoidingRandomStrollGoal(this, 0.8));
 		this.goalSelector.addGoal(7, new LookAtPlayerGoal(this, Mob.class, 8.0F));
 
@@ -520,6 +529,26 @@ public class ROOTEntity extends Chicken implements GeoEntity {
 	@Override
 	public SoundEvent getDeathSound() {
 		return BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("entity.generic.death"));
+	}
+
+	@Override
+	protected SoundEvent getAmbientSound() {
+		return null;
+	}
+
+	@Override
+	protected void playStepSound(BlockPos pos, BlockState state) {
+		this.playSound(SoundEvents.IRON_GOLEM_STEP, 0.4F, 1.0F);
+	}
+
+	@Override
+	public boolean isFood(ItemStack stack) {
+		return false;
+	}
+
+	@Override
+	public Chicken getBreedOffspring(ServerLevel level, AgeableMob partner) {
+		return null;
 	}
 
 	@Override
@@ -581,7 +610,10 @@ public class ROOTEntity extends Chicken implements GeoEntity {
 
 	@Override
 	public void aiStep() {
+		this.eggTime = EGG_TIMER_HOLD;
 		super.aiStep();
+		if (!this.onGround() && this.getDeltaMovement().y < 0.0)
+			this.setDeltaMovement(this.getDeltaMovement().multiply(1.0, GLIDE_CANCEL, 1.0));
 		this.updateSwingTime();
 		if (!this.level().isClientSide) {
 			if (this.busyTicks > 0) {
@@ -607,8 +639,7 @@ public class ROOTEntity extends Chicken implements GeoEntity {
 
 	public static void init(RegisterSpawnPlacementsEvent event) {
 		event.register(SaferootModEntities.ROOT.get(), SpawnPlacementTypes.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES,
-				(entityType, world, reason, pos, random) -> (world.getDifficulty() != Difficulty.PEACEFUL && Monster.isDarkEnoughToSpawn(world, pos, random) && Mob.checkMobSpawnRules(entityType, world, reason, pos, random)),
-				RegisterSpawnPlacementsEvent.Operation.REPLACE);
+				(entityType, world, reason, pos, random) -> false, RegisterSpawnPlacementsEvent.Operation.REPLACE);
 	}
 
 	public static AttributeSupplier.Builder createAttributes() {

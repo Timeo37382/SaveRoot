@@ -73,7 +73,7 @@ public class BoussoleRootItem extends Item {
 
 		@SubscribeEvent
 		public static void register(FMLClientSetupEvent event) {
-			event.enqueueWork(() -> ItemProperties.register(SaferootModItems.BOUSSOLE_ROOT.get(), ResourceLocation.withDefaultNamespace("angle"),
+			event.enqueueWork(() -> ItemProperties.register(SaferootModItems.ROOT_COMPASS.get(), ResourceLocation.withDefaultNamespace("angle"),
 					new CompassItemPropertyFunction((world, stack, holder) -> {
 						LodestoneTracker tracker = stack.get(DataComponents.LODESTONE_TRACKER);
 						return tracker != null ? tracker.target().orElse(null) : null;

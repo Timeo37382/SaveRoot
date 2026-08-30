@@ -27,7 +27,9 @@
       "value": -26368,
       "falpha": 0.0
     },
-    "creativeTabs": [],
+    "creativeTabs": [
+      "CUSTOM:SaveRootTAB"
+    ],
     "isBoss": false,
     "bossBarColor": "PINK",
     "bossBarType": "PROGRESS",

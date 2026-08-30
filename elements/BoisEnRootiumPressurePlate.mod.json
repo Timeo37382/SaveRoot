@@ -39,7 +39,7 @@
       }
     ],
     "customProperties": [],
-    "name": "Bois En Rootium Pressure Plate",
+    "name": "Rootium Pressure Plate",
     "specialInformation": {
       "fixedValue": []
     },
@@ -52,7 +52,7 @@
     "rarity": "COMMON",
     "immuneToFire": false,
     "creativeTabs": [
-      "BUILDING_BLOCKS"
+      "CUSTOM:SaveRootTAB"
     ],
     "destroyTool": "axe",
     "customDrop": "",

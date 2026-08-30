@@ -35,16 +35,16 @@ public class RootGolemSpawnProcedure {
 		BlockPos arm3Pos = bodyPos.north();
 		BlockPos arm4Pos = bodyPos.south();
 
-		boolean isRootiumBody = world.getBlockState(bodyPos).is(SaferootModBlocks.COEURDEROOT.get())
-				&& world.getBlockState(basePos).is(SaferootModBlocks.BLOC_DE_ROOTIUM.get());
+		boolean isRootiumBody = world.getBlockState(bodyPos).is(SaferootModBlocks.ROOT_HEART.get())
+				&& world.getBlockState(basePos).is(SaferootModBlocks.ROOTIUM_BLOCK.get());
 
 		if (!isRootiumBody) return;
 
-		boolean eastWestArms = world.getBlockState(arm1Pos).is(SaferootModBlocks.BLOC_DE_ROOTIUM.get())
-				&& world.getBlockState(arm2Pos).is(SaferootModBlocks.BLOC_DE_ROOTIUM.get());
+		boolean eastWestArms = world.getBlockState(arm1Pos).is(SaferootModBlocks.ROOTIUM_BLOCK.get())
+				&& world.getBlockState(arm2Pos).is(SaferootModBlocks.ROOTIUM_BLOCK.get());
 
-		boolean northSouthArms = world.getBlockState(arm3Pos).is(SaferootModBlocks.BLOC_DE_ROOTIUM.get())
-				&& world.getBlockState(arm4Pos).is(SaferootModBlocks.BLOC_DE_ROOTIUM.get());
+		boolean northSouthArms = world.getBlockState(arm3Pos).is(SaferootModBlocks.ROOTIUM_BLOCK.get())
+				&& world.getBlockState(arm4Pos).is(SaferootModBlocks.ROOTIUM_BLOCK.get());
 
 		if (!eastWestArms && !northSouthArms) return;
 

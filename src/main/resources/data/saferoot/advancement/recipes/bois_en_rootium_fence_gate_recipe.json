@@ -11,7 +11,7 @@
       "conditions": {
         "items": [
           {
-            "items": "saferoot:bois_en_rootium_planks"
+            "items": "saferoot:rootium_planks"
           }
         ]
       },

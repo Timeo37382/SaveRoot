@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "saferoot:plaine_rootium",
+    "saferoot:semi_foret_rootium",
+    "saferoot:foret_rootium"
+  ],
+  "features": "saferoot:rootium_dirt",
+  "step": "underground_ores"
+}

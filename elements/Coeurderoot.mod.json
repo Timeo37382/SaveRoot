@@ -38,7 +38,7 @@
       }
     ],
     "customProperties": [],
-    "name": "Coeur de Root",
+    "name": "Root Heart",
     "specialInformation": {
       "fixedValue": []
     },
@@ -51,7 +51,7 @@
     "rarity": "EPIC",
     "immuneToFire": true,
     "creativeTabs": [
-      "BUILDING_BLOCKS"
+      "CUSTOM:SaveRootTAB"
     ],
     "destroyTool": "pickaxe",
     "customDrop": "",

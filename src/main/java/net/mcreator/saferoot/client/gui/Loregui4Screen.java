@@ -75,8 +75,6 @@ public class Loregui4Screen extends AbstractContainerScreen<Loregui4Menu> implem
 		guiGraphics.drawString(this.font, Component.translatable("gui.saferoot.loregui_4.label_perca_le_voile_des_dimensions_et"), 7, 57, -12829636, false);
 		guiGraphics.drawString(this.font, Component.translatable("gui.saferoot.loregui_4.label_rootia_un_monde_regi_par_une_en"), 7, 70, -12829636, false);
 		guiGraphics.drawString(this.font, Component.translatable("gui.saferoot.loregui_4.label_34"), 316, 5, -12829636, false);
-		guiGraphics.drawString(this.font, Component.translatable("gui.saferoot.loregui_4.label_root"), 7, 43, -10092544, true);
-		guiGraphics.drawString(this.font, Component.translatable("gui.saferoot.loregui_4.label_pour_atteindre_la_verite_il_vou"), 7, 85, -12829636, false);
 		guiGraphics.drawString(this.font, Component.translatable("gui.saferoot.loregui_4.label_du_gardien_et_penetrer_dans_roo"), 6, 98, -12829636, false);
 	}
 

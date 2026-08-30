@@ -9,10 +9,10 @@
     "customProperties": {},
     "states": [],
     "animations": [],
-    "name": "Lingot de Rootium",
+    "name": "Rootium Ingot",
     "rarity": "RARE",
     "creativeTabs": [
-      "MATERIALS"
+      "CUSTOM:SaveRootTAB"
     ],
     "stackSize": 64,
     "enchantability": 0,

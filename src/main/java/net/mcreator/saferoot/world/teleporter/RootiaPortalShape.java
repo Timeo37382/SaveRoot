@@ -57,7 +57,7 @@ public class RootiaPortalShape {
 	}
 
 	private static boolean isFrameBlock(BlockState state) {
-		return state.is(SaferootModBlocks.BLOC_DE_ROOTIUM.get()) || state.is(Blocks.CRIMSON_PLANKS);
+		return state.is(SaferootModBlocks.ROOTIUM_BLOCK.get()) || state.is(Blocks.CRIMSON_PLANKS);
 	}
 
 	private static boolean isEmpty(BlockState state) {
